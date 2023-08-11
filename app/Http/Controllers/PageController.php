@@ -9,4 +9,8 @@ class PageController extends Controller
     public function index(){
         return view('pages.welcome');
     }
+
+    public function news(){
+        return view('pages.news');
+    }
 }

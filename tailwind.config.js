@@ -10,6 +10,9 @@ export default {
         'arimo': ['Arimo', 'sans-serif']
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ['light']
+  }
 }
 
