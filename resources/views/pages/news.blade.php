@@ -21,9 +21,8 @@
             <p class="font-arimo">Ditampilkan berdasarkan yang paling terbaru </p>
         </div>
     </div>
-<div class="flex flex-wrap gap-6 mx-auto ">
+<div class="flex flex-wrap gap-6 justify-center ">
 
-@foreach ($data as $item)
 <div class="w-96 px-5">
     <img src="https://apimapor.diaryies.web.id/storage/images/{{ $item['file'] }}" alt="" class="w-full h-[50%]">
     <h1 class="font-bold mt-5">{{ $item['title'] }}</h1>
@@ -31,8 +30,6 @@
     <p class="underline text-blue-600">Read More..</p>
     <div class="bg-slate-950 h-0.5 mt-5">&nbsp;</div>
 </div> 
-
-@endforeach
 
 
 
