@@ -12,7 +12,12 @@ class PageController extends Controller
     }
 
     public function news(){
-        return view('pages.news');
+        $url = 'https://www.apimapor.diaryies.web.id/api/news';
+
+        $response = Http::get($url);
+
+        $data = $response->json()['dataDetail'];
+        return view('pages.news', compact('data'));
     }
 
     public function news2(){

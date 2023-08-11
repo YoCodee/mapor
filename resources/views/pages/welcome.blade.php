@@ -14,7 +14,7 @@
                 Nama <span>Desa</span>
               </h1>
               <p class="animate__animated animate__fadeInUp animate__slow md:text-md text-sm">
-                Anyone who as never made a mistake has never tried anything new
+                Anyone who as never made a mistake has never tried anything news
               </p>
             </div>
           </div>
