@@ -23,73 +23,73 @@
     </div>
 <div class="flex flex-wrap gap-6 mx-auto ">
 <div class="flex flex-col  bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-[60rem] lg:max-w-[26.5rem] xl:max-w-[33rem] 2xl:max-w-[40rem]   hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-full md:w-48 2xl:w-72 md:rounded-none md:rounded-l-lg" src="{{ asset('images/P1060362.JPG')}}" alt="">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-60 md:w-48 2xl:w-72 md:rounded-none md:rounded-l-lg" src="{{ asset('images/P1060362.JPG')}}" alt="">
     <div class="flex p-4 leading-normal">
         <div class="relative">
         <h5 class="mb-2 text-2xl font-bold tracking-tight leading-7 text-gray-900 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
         <p class="mb-3 font-normal  text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <div class="absolute bottom-0 right-0">
-            <p>read more</p>
+        <div class="absolute bottom-0 right-0 cursor-pointer hover:text-orange-400">
+            <a>Read more</a>
         </div>
     </div>
     </div>
 </div>
 <div class="flex flex-col  bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-[60rem] lg:max-w-[26.5rem] xl:max-w-[33rem] 2xl:max-w-[40rem]   hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-full md:w-48 2xl:w-72 md:rounded-none md:rounded-l-lg" src="{{ asset('images/P1060362.JPG')}}" alt="">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-60 md:w-48 2xl:w-72 md:rounded-none md:rounded-l-lg" src="{{ asset('images/P1060362.JPG')}}" alt="">
     <div class="flex p-4 leading-normal">
         <div class="relative">
         <h5 class="mb-2 text-2xl font-bold tracking-tight leading-7 text-gray-900 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
         <p class="mb-3 font-normal  text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <div class="absolute bottom-0 right-0">
-            <p>read more</p>
+        <div class="absolute bottom-0 right-0 cursor-pointer hover:text-orange-400">
+            <a>Read more</a>
         </div>
     </div>
     </div>
 </div>
 <div class="flex flex-col  bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-[60rem] lg:max-w-[26.5rem] xl:max-w-[33rem] 2xl:max-w-[40rem]   hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-full md:w-48 2xl:w-72 md:rounded-none md:rounded-l-lg" src="{{ asset('images/P1060362.JPG')}}" alt="">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-60 md:w-48 2xl:w-72 md:rounded-none md:rounded-l-lg" src="{{ asset('images/7259_logoWilayah.png')}}" alt="">
     <div class="flex p-4 leading-normal">
         <div class="relative">
         <h5 class="mb-2 text-2xl font-bold tracking-tight leading-7 text-gray-900 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
         <p class="mb-3 font-normal  text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <div class="absolute bottom-0 right-0">
-            <p>read more</p>
+        <div class="absolute bottom-0 right-0 cursor-pointer hover:text-orange-400">
+            <a>Read more</a>
         </div>
     </div>
     </div>
 </div>
 <div class="flex flex-col  bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-[60rem] lg:max-w-[26.5rem] xl:max-w-[33rem] 2xl:max-w-[40rem]   hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-full md:w-48 2xl:w-72 md:rounded-none md:rounded-l-lg" src="{{ asset('images/P1060362.JPG')}}" alt="">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-60 md:w-48 2xl:w-72 md:rounded-none md:rounded-l-lg" src="{{ asset('images/P1060362.JPG')}}" alt="">
     <div class="flex p-4 leading-normal">
         <div class="relative">
         <h5 class="mb-2 text-2xl font-bold tracking-tight leading-7 text-gray-900 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
         <p class="mb-3 font-normal  text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <div class="absolute bottom-0 right-0">
-            <p>read more</p>
+        <div class="absolute bottom-0 right-0 cursor-pointer hover:text-orange-400">
+            <a>Read more</a>
         </div>
     </div>
     </div>
 </div>
 <div class="flex flex-col  bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-[60rem] lg:max-w-[26.5rem] xl:max-w-[33rem] 2xl:max-w-[40rem]   hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-full md:w-48 2xl:w-72 md:rounded-none md:rounded-l-lg" src="{{ asset('images/P1060362.JPG')}}" alt="">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-60 md:w-48 2xl:w-72 md:rounded-none md:rounded-l-lg" src="{{ asset('images/P1060362.JPG')}}" alt="">
     <div class="flex p-4 leading-normal">
         <div class="relative">
         <h5 class="mb-2 text-2xl font-bold tracking-tight leading-7 text-gray-900 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
         <p class="mb-3 font-normal  text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <div class="absolute bottom-0 right-0">
-            <p>read more</p>
+        <div class="absolute bottom-0 right-0 cursor-pointer hover:text-orange-400">
+            <a>Read more</a>
         </div>
     </div>
     </div>
 </div>
 <div class="flex flex-col  bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-[60rem] lg:max-w-[26.5rem] xl:max-w-[33rem] 2xl:max-w-[40rem]   hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-full md:w-48 2xl:w-72 md:rounded-none md:rounded-l-lg" src="{{ asset('images/P1060362.JPG')}}" alt="">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-60 md:w-48 2xl:w-72 md:rounded-none md:rounded-l-lg" src="{{ asset('images/P1060362.JPG')}}" alt="">
     <div class="flex p-4 leading-normal">
         <div class="relative">
         <h5 class="mb-2 text-2xl font-bold tracking-tight leading-7 text-gray-900 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
         <p class="mb-3 font-normal  text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <div class="absolute bottom-0 right-0">
-            <p>read more</p>
+        <div class="absolute bottom-0 right-0 cursor-pointer hover:text-orange-400">
+            <a>Read more</a>
         </div>
     </div>
     </div>
