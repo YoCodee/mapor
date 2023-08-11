@@ -9,7 +9,7 @@
     <div class="flex flex-col  ml-8 p-0 ">
       <h5
         class="mb-2  font-extrabold text-black text-5xl font-montserat" data-aos="fade-left">
-        SELAMAT DATANG DI DESA MAPUR
+        SELAMAT DATANG DI DESA MAPURs
       </h5>
       <p class=" mb-4 text-base lg:text-lg text-neutral-600 font-arimo" data-aos="fade-left">
        Suku Mapur merupakan salah satu suku di Provinsi Sumatra Selatan yang tinggal di Desa Air Abik, Pejem dan Tuing di Kecamatan Belinyu, Kabupaten Bangka Belitung. Dari tiga desa tersebut, persebaran Orang Suku Mapur terbanyak ada di Dusun Air Abik.[1] Suku Mapur dibedakan berdasarkan lokasi tempat tinggalnya.[2] Orang Mapur yang hidup di pedalaman, atau di hutan-hutan, dan yang tinggal di pesisir pantai. Orang Mapur yang tinggal di pesisir pantai lebih maju peradabannya daripada yang tinggal di pedalaman. Hal ini karena mereka lebih banyak menyerap kebudayaan dan pengetahuan baru.
