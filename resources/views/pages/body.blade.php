@@ -1,6 +1,6 @@
 <div class="wrapper px-[7%] pt-24">
-
-    <div class="flex justify-center wrup3">
+<div class="wrup3">
+    <div class="flex justify-center">
     <div
     class="flex flex-col justify-center items-center rounded-lg    md:max-w-7xl md:flex-row">
     <img
@@ -25,15 +25,129 @@
   </div>
   </div>
 
-</div>
+  <div class="wrapper1">
+    <div class="container">
+      <i class="fas fa-user"></i>
+      <span class="num" data-val="2492">000</span>
+      <span class="text">Jumlah Penduduk</span>
+    </div>
+    <div class="container">
+      <i class="fas fa-smile-beam"></i>
+      <span class="num" data-val="745">000</span>
+      <span class="text">Jumlah Kepala Keluarga</span>
+    </div>
+    <div class="container">
+      <i class="fas fa-list"></i>
+      <span class="num" data-val="343">000</span>
+      <span class="text">Jumlah Remaja</span>
+    </div>
+    <div class="container">
+      <i class="fas fa-star"></i>
+      <span class="num" data-val="280">000</span>
+      <span class="text">Five Stars</span>
+    </div>
+  </div>
 
+</div>
+</div>
+<script>
+    let valueDisplays = document.querySelectorAll(".num");
+let interval = 4000;
+valueDisplays.forEach((valueDisplay) => {
+  let startValue = 0;
+  let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+  let duration = Math.floor(interval / endValue);
+  let counter = setInterval(function () {
+    startValue += 1;
+    valueDisplay.textContent = startValue;
+    if (startValue == endValue) {
+      clearInterval(counter);
+    }
+  }, duration);
+});
+</script>
 <style>
 .wrup3{
-    background: rgba(0, 0, 0, 0.6) url("./images/pexels-pixabay-271667.jpg");
+    background:  url("./images/trans.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
+}
+
+
+.wrapper1 {
+margin: auto;
+  width: 80vw;
+
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.container {
+  width: 28vmin;
+  height: 28vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1em 0;
+  position: relative;
+  font-size: 16px;
+  border-radius: 0.5em;
+  background-color: ;
+  border-bottom: 10px solid #fedc56;
+}
+i {
+  color: #fedc56;
+  font-size: 2.5em;
+  text-align: center;
+}
+span.num {
+  color: #000000;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 3em;
+}
+span.text {
+  color: #000000;
+  font-size: 1em;
+  text-align: center;
+  pad: 0.7em 0;
+  font-weight: 400;
+  line-height: 0;
+}
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 85vw;
+  }
+  .container {
+    height: 26vmin;
+    width: 26vmin;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 90vw;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .container {
+    width: calc(50% - 40px);
+    height: 30vmin;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrapper {
+    gap: 15px;
+  }
+  .container {
+    width: 100%;
+    height: 25vmin;
+    font-size: 8px;
+  }
 }
 </style>
 
