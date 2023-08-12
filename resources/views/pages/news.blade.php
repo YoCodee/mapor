@@ -54,7 +54,7 @@
           <p class="text-neutral-800">
             {{ Str::length($item['body']) > 250 ? Str::limit($item['body'], 250) : $item['body'] }}
           </p>
-          <div class="absolute bottom-10 left-5">
+          <div class="absolute bottom-[-20] left-4">
             <a href="/news/{{ $item['slug'] }}" class="text-xs text-orange-500">Read More...</a>
           </div>
         </div>
