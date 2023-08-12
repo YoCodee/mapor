@@ -5,20 +5,29 @@
 @section('content')
 
 
-<div id="default-carousel" class="relative w-full" data-carousel="slide">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.css" rel="stylesheet" />
+<div id="controls-carousel" class="relative w-full" data-carousel="static">
     <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+    <div class="relative h-[320px] overflow-hidden rounded-lg md:h-[444px] lg:h-[708px]">
          <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://www.mongabay.co.id/wp-content/uploads/2020/08/Rumah-asli-warga-Desa-Mapur-di-wilayah-pesisir-yang-ditandai-dengan-dinding-kayunya.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="{{ asset('images/image-removebg-preview (11).png')}}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://okeyboz.com/wp-content/uploads/2022/05/IMG-20220520-WA0057.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="{{ asset('images/image-removebg-preview (11).png')}}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://suarapemerintah.id/wp-content/uploads/2022/06/SukuLom.webp" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="/docs/images/carousel/carousel-3.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/docs/images/carousel/carousel-4.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/docs/images/carousel/carousel-5.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
     </div>
     <!-- Slider indicators -->
@@ -48,16 +57,12 @@
     </button>
 </div>
 
+
     <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
 </div>
   @include('pages.body')
 <script>
-    import {
-  Carousel,
-  initTE,
-} from "tw-elements";
 
-initTE({ Carousel });
 </script>
 @endsection
 
@@ -109,79 +114,9 @@ nav{
 .btnn:hover::after{
     transform: scaleX(0.5);
 }
-.gambar {
-  background: rgba(0, 0, 0, 0.6) url("./images/P1060362.JPG");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: darken;
 
+.img{
+    filter: brightness(50%)
 }
-.gambar2 {
-  background: rgba(0, 0, 0, 0.7) url("./images/P1060362.JPG");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: darken;
-
-}
-.gambar3 {
-  background: rgba(0, 0, 0, 0.7) url("./images/P1060362.JPG");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: darken;
-
-}
-
-
-.carousel-item .gambar {
-  width: 100%;
-  height: 708px;
-  display: flex;
-}
-
-.carousel-item .gambar2 {
-  width: 100%;
-  height: 708px;
-  display: flex;
-}
-
-.carousel-item .gambar3 {
-  width: 100%;
-  height: 708px;
-  display: inline-block;
-  display: flex;
-}
-
-.smk2 h1 {
-  margin: auto;
-  color: white;
-  text-align: center;
-  font-size: 3.5rem;
-  align-items: center;
-  justify-content: center;
-}
-
-.smk2 div {
-  padding: 12px 10px 12px 10px;
-  background-color: #294a70;
-  color: white;
-  text-align: center;
-  border-radius: 15px;
-  max-width: 12rem;
-  margin: 12px auto;
-}
-
-
-.smk1 p{
-  text-align: center;
-  color: white;
-}
-
-.smk1 h1 span {
-  color: orange;
-}
-
 
 </style>
