@@ -16,4 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageController::class, 'index'])->name('index');
 Route::get('/news', [PageController::class, 'news'])->name('news');
-Route::get('/news2', [PageController::class, 'news2'])->name('news2');
+Route::get('/detail', [PageController::class, 'detail'])->name('detail');
+Route::get('/add', [PageController::class, 'add'])->name('add');
+Route::post('/add', [PageController::class, 'addProses'])->name('addProses');
+
+Route::get('/news/{slug}', [PageController::class, 'detailInfo'])->name('detailInfo');
