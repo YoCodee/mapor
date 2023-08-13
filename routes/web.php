@@ -19,6 +19,7 @@ Route::get('/news', [PageController::class, 'news'])->name('news');
 Route::get('/detail', [PageController::class, 'detail'])->name('detail');
 Route::get('/add', [PageController::class, 'add'])->name('add');
 Route::post('/add', [PageController::class, 'addProses'])->name('addProses');
+Route::get('/login', [PageController::class, 'login'])->name('login');
 
 Route::get('/news/{slug}', [PageController::class, 'detailInfo'])->name('detailInfo');
 Route::get('/datanews', [PageController::class, 'dataNews'])->name('dataNews');

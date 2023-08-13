@@ -1,4 +1,4 @@
-<div class="wrapper px-[7%] pt-24">
+<div class="wrappere px-[7%] pt-24">
   <div class="wrup3">
       <div class="flex justify-center">
       <div
@@ -50,12 +50,12 @@
 
   </div>
 </div>
-  <div class="galery mt-5  bg-[#FFB600] left-0 right-0 px-[7%] py-8">
-    <div class="header-gallery flex justify-center pb-5">
+  <div class="galery mt-5  bg-[#FFB600] left-0 right-0 px-[7%] py-8" >
+    <div class="header-gallery flex justify-center pb-5"  data-aos="zoom-out-up">
         <h1 class="text-4xl lg:text-6xl font-montserat font-extrabold text-white">Galleri Desa <span class="text-[#FFB600] bg-white px-2 rounded-sm">Mapur</span></h1>
     </div>
     <div class="flex flex-wrap gap-12 justify-center my-12">
-    <div class="max-w-sm bg-white border border-gray-200 rounded-2xl shadow-2xl  dark:bg-gray-800 dark:border-gray-700 ">
+    <div class="max-w-sm bg-white border border-gray-200 rounded-2xl shadow-2xl  dark:bg-gray-800 dark:border-gray-700 "data-aos="zoom-in">
         <div class="relative overflow-hidden bg-cover bg-no-repeat flex items-center justify-center h-56">
             <img
               src="{{ asset('images/P1060362.JPG')}}"
@@ -71,7 +71,7 @@
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
         </div>
     </div>
-    <div class="max-w-sm bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 ">
+    <div class="max-w-sm bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 " data-aos="zoom-in">
         <div class="relative overflow-hidden bg-cover bg-no-repeat flex items-center justify-center h-56">
             <img
               src="{{ asset('images/P1060362.JPG')}}"
@@ -87,7 +87,7 @@
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
         </div>
     </div>
-    <div class="max-w-sm bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 ">
+    <div class="max-w-sm bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 " data-aos="zoom-in">
         <div class="relative overflow-hidden bg-cover bg-no-repeat flex items-center justify-center h-56">
             <img
               src="{{ asset('images/P1060362.JPG')}}"
@@ -111,7 +111,7 @@
         <div class="header-gallery flex justify-center pb-5">
             <h1 class="text-4xl lg:text-5xl mt-12 font-montserat font-medium text-black">Apa Kata kami tentang Desa <span class="text-[#FFB600] font-extrabold">Mapur</span></h1>
         </div>
-        <div class="my-10 md:my-12 containers mx-auto flex flex-col md:flex-row shadow-sm overflow-hidden" x-data="{ testimonialActive: 2 }" x-cloak>
+        <div class="my-10 md:my-12 containers mx-auto flex flex-col md:flex-row shadow-sm overflow-hidden" data-aos="zoom-out-down" x-data="{ testimonialActive: 2 }" x-cloak>
 			<div class="relative w-full py-2 md:py-24 bg-indigo-700 md:w-1/2 flex flex-col item-center justify-center">
 
 				<div class="absolute top-0 left-0 z-10 grid-indigo w-16 h-16 md:w-40 md:h-40 md:ml-20 md:mt-24"></div>
@@ -200,6 +200,128 @@
 			</div>
 		</div>
 </div>
+<section class="dark:bg-gray-800 dark:text-gray-100 px-[7%]">
+    <div class="container2 px-6 py-12 mx-auto">
+        <div class="grid items-center gap-4 xl:grid-cols-5">
+            <div class="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
+                <h2 class="text-4xl font-bold">Mengenal Lebih Dalam tentang Desa Mapur</h2>
+                <p class="dark:text-gray-400">Data-data ini diambil dari data yang sudah beredar di Internet dan Warga Sekitar</p>
+            </div>
+            <div class="p-6 xl:col-span-3">
+                <div class="grid gap-4 md:grid-cols-2">
+                    <div class="grid content-center gap-4">
+                        <div class="p-6 rounded shadow-md dark:bg-gray-900">
+                            <p>Sejak masuknya perusahaan sawit yang mengambil alih lahan bahkan hutan adat mereka, akhirnya ikatan kuat antara suku Mapur dengan alam mulai memudar karena kehidupan mereka yang berubah seiring berjalannya waktu. Ruang hidup suku Mapur sebagian sudah rusak dan terancam oleh aktivitas perkebunan sawit skala besar dan penambangan timah.</p>
+                            <div class="flex items-center mt-4 space-x-4">
+                                <img src="https://source.unsplash.com/50x50/?portrait?1" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                                <div>
+                                    <p class="text-lg font-semibold">Leroy Jenkins</p>
+                                    <p class="text-sm dark:text-gray-400">CTO of Company Co.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6 rounded shadow-md dark:bg-gray-900">
+                            <p>keresahan masyarakat desa Mapur melonjak akibat aktivitas perusahaan perkebunan sawit PT Alam Lestari yang telah meresahkan mereka. Masyarakat desa Mapur akhirnya melakukan pertemuan dengan pihak perusahaan PT Alam Lestari yang dilakukan di Balai Desa Mapur.</p>
+                            <div class="flex items-center mt-4 space-x-4">
+                                <img src="https://source.unsplash.com/50x50/?portrait?2" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                                <div>
+                                    <p class="text-lg font-semibold">Leroy Jenkins</p>
+                                    <p class="text-sm dark:text-gray-400">CTO of Company Co.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid content-center gap-4">
+                        <div class="p-6 rounded shadow-md dark:bg-gray-900">
+                            <p>Adat istiadat kerap diidentikkan dengan kearifan lokal masyarakat atau local wisdom yang tumbuh dari kebiasaan dan tradisi masyarakatnya. Untuk melestarikan kebudayaan dan tradisi suku mapur yang menjadi suku tertua di Pulau Bangka PT Timah Tbk bersama Lembaga Adat Mapur melakukan gerakan untuk melindungi, melestarikan, dan mencintai kebudayaan Indonesia yang ada di Bangka Belitung.</p>
+                            <div class="flex items-center mt-4 space-x-4">
+                                <img src="https://source.unsplash.com/50x50/?portrait?3" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                                <div>
+                                    <p class="text-lg font-semibold">Leroy Jenkins</p>
+                                    <p class="text-sm dark:text-gray-400">CTO of Company Co.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6 rounded shadow-md dark:bg-gray-900">
+                            <p>Saat ini, wilayah hutan adat Suku Mapur tidak ada yang diakui oleh pemerintah. Wilayah hutan adat suku Mapur berubah menjadi HP (Hutan Produksi), APL (Area Penggunaan Lain), serta HL (Hutan Lindung) di bagian pesisir atau hutan mangrove. Setelah reformasi 1998 atau setelah Provinsi Kepulauan Bangka Belitung terbentuk tepatnya pada tahun 2000, akhirnya pemerintah mengeluarkan izin usaha yang memanfaatkan kawasan adat Suku Mapur</p>
+                            <div class="flex items-center mt-4 space-x-4">
+                                <img src="https://source.unsplash.com/50x50/?portrait?4" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
+                                <div>
+                                    <p class="text-lg font-semibold">Leroy Jenkins</p>
+                                    <p class="text-sm dark:text-gray-400">CTO of Company Co.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+<div class="berita px-[7%] my-8">
+    <div class="header-gallery flex justify-center py-5">
+        <div class="text-center">
+        <h1 class="text-4xl lg:text-5xl font-montserat font-extrabold text-black">Berita <span class="text-[#FFB600]">Terkait</span></h1>
+        <h2 class="text-xl lg:text-sm font-montserat font-extrabold text-gray-300">Informasi Berita di Desa </h2>
+    </div>
+    </div>
+    <div class="flex gap-12 flex-wrap justify-center">
+    <div class="card max-w-sm border-none" data-aos="fade-up">
+        <div class="imageg w-full relative">
+            <img src="{{ asset('images/P1060362.JPG')}}" alt="">
+            <div class="absolute bg-white h-5 w-full bottom-[-7] left-[0] rotate-2"></div>
+        </div>
+        <div class="isi px-[5%]">
+            <div class="judul font-montserat text-2xl font-bold">Berita</div>
+            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                <small>Published <u>13.01.2022</u> by
+                  <a href="#!">Anna Maria Doe</a></small>
+              </p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolorem iusto perspiciatis aliquam minima temporibus recusandae laborum reprehenderit tempora provident delectus, odit corporis mollitia accusamus harum!</p>
+        </div>
+    </div>
+    <div class="card max-w-sm border-none" data-aos="fade-up">
+        <div class="imageg w-full relative">
+            <img src="{{ asset('images/P1060362.JPG')}}" alt="">
+            <div class="absolute bg-white h-5 w-full bottom-[-7] left-0 rotate-2"></div>
+        </div>
+        <div class="isi px-[5%]">
+            <div class="judul font-montserat text-2xl font-bold">Berita</div>
+            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                <small>Published <u>13.01.2022</u> by
+                  <a href="#!">Anna Maria Doe</a></small>
+              </p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolorem iusto perspiciatis aliquam minima temporibus recusandae laborum reprehenderit tempora provident delectus, odit corporis mollitia accusamus harum!</p>
+        </div>
+    </div>
+    <div class="card max-w-sm border-none" data-aos="fade-up">
+        <div class="imageg w-full relative">
+            <img src="{{ asset('images/P1060362.JPG')}}" alt="">
+            <div class="absolute bg-white h-5 w-full bottom-[-7] left-0 rotate-2"></div>
+        </div>
+        <div class="isi px-[5%]">
+            <div class="judul font-montserat text-2xl font-bold">Berita</div>
+            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                <small>Published <u>13.01.2022</u> by
+                  <a href="#!">Anna Maria Doe</a></small>
+              </p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolorem iusto perspiciatis aliquam minima temporibus recusandae laborum reprehenderit tempora provident delectus, odit corporis mollitia accusamus harum!</p>
+        </div>
+    </div>
+</div>
+
+<div class="flex justify-center my-14">
+    <a href="">
+    <div class="bg-[#000000] w-72 px-4 py-4 text-center text-white duration-200 ease-linear hover:bg-[#FFB600]">
+        <h1>Berita Selanjutnya</h1>
+    </div>
+</a>
+</div>
+</div>
+
+@include('partials.footer')
 	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
   <script>
       let valueDisplays = document.querySelectorAll(".num");

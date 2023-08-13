@@ -13,13 +13,16 @@ class PageController extends Controller
     public function details(){
         return view('pages.details');
     }
+    public function login(){
+        return view('pages.login');
+    }
 
     public function news(Request $request){
-        $page = $request->query('page', 1); 
-    
+        $page = $request->query('page', 1);
+
         $baseUrl = 'https://www.apimapor.diaryies.web.id/api/news';
         $url = "$baseUrl?page=$page";
-    
+
         $response = Http::get($url);
 
         if ($response->status() == 401) {
@@ -27,10 +30,10 @@ class PageController extends Controller
         } elseif ($response->status() == 200) {
             $dataPage = $response->json()['dataPage'];
             $data = $response->json()['dataDetail'];
-    
+
         return view('pages.news', compact('data', 'page', 'dataPage'));
         }
-        
+
     }
 
     public function detail(){
@@ -74,7 +77,7 @@ class PageController extends Controller
         $data = $response->json()['data'];
         return view('pages.details', compact('data'));
     }
-    
+
     public function dataNews(){
         $url = 'https://www.apimapor.diaryies.web.id/api/allnews';
 
