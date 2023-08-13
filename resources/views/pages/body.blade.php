@@ -2,7 +2,7 @@
   <div class="wrup3">
       <div class="flex justify-center">
       <div
-      class="flex flex-col justify-center items-center rounded-lg    md:max-w-7xl md:flex-row">
+      class="flex flex-col justify-center items-center rounded-lg md:max-w-7xl md:flex-row">
       <img
         class="h-96 w-72 lg:w-full mb-5 lg:mb-5  lg:h-full"
         src="{{ asset('images/image-removebg-preview (11).png')}}"
@@ -234,6 +234,7 @@
     display: flex;
     justify-content: space-around;
     gap: 10px;
+    margin-top: 50px
   }
   .container {
     width: 28vmin;

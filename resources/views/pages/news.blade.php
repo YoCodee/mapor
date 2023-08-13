@@ -33,7 +33,12 @@
             data-te-ripple-init data-te-ripple-color="light">
             <div class="aspect-w-4 aspect-h-3">
                 <div class="flex items-center justify-center h-56">
-                  <img src="https://www.apimapor.diaryies.web.id/storage/images/{{ $item['file'] }}" class="object-cover w-full h-full" alt="Image"/>
+                  @php
+                    $imagePath = isset($item['file']) && !empty($item['file'])
+                          ? 'https://www.apimapor.diaryies.web.id/storage/images/' . $item['file']
+                          : asset('images/pdfword.jpg');
+                  @endphp
+                  <img src="{{ $imagePath }}" class="object-cover w-full h-full" alt="Image"/>
                 </div>
               </div>
             <a href="#!">
@@ -48,10 +53,10 @@
           <h5 class="  text-lg font-bold">{{ $item['title'] }}</h5>
 
           <p class="mb-3 text-neutral-500 dark:text-neutral-300">
-            <small>Published <u>13.01.2022</u> by
+            <small>Published <u>{{ $item['date'] }}</u> by
               <a href="#!">Admin</a></small>
           </p>
-          <p class="text-neutral-800">
+          <p class="text-neutral-800 font-arimo">
             {{ Str::length($item['body']) > 250 ? Str::limit($item['body'], 250) : $item['body'] }}
           </p>
           <div class="absolute bottom-[-20] left-4 lg:bottom-10 lg:left-5">
@@ -63,6 +68,15 @@
         &nbsp;
       </div>
       @endforeach
+
+      <div class="pagination flex justify-center gap-5">
+        @if ($page >= 1)
+            <a href="/news?page={{ $page + 1 }}" class="btn btn-success">Halaman Selanjutnya</a>
+        @endif
+        @if ($page <= $dataPage['last_page'] && $page > 1)
+            <a href="/news?page={{ $page - 1 }}" class="btn btn-secondary">Halaman Sebelumnya</a>
+        @endif
+    </div>
   </div>
 </div>
 

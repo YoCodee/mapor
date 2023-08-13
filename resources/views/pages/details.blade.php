@@ -17,8 +17,8 @@
 
 <div class="wrapper2">
     <div class="wrapper px-4 mt-5">
-        <a href="/news" class=" text-orange-500 no-underline text-xl hover:underline hover:text-blue-200 fa-solid fa-arrow-left fa-xl">
-            <i class="mb-4 flex items-center my-auto ml-8">Back</i>
+        <a href="/news" class=" text-orange-500 no-underline text-xl mt-5 hover:underline hover:text-blue-200 fa-solid fa-arrow-left fa-xl">
+            <i class="mb-10 flex items-center my-auto ml-8">Back</i>
         </a>
 
         <div class="relative">
@@ -29,18 +29,39 @@
             </p>
         </div>
       
-        <div class="image-news w-full lg:w-full flex mx-auto justify-center">
-            <img src="https://www.apimapor.diaryies.web.id/storage/images/{{ $data['file'] }}" class="h-full lg:h-96" alt="Image">
+        <div class="image-news w-full lg:w-full flex mx-auto justify-center mt-5">
+            
+            @if (isset($data['file']) && !empty($data['file']))
+                @php
+                    $extension = pathinfo($data['file'], PATHINFO_EXTENSION);
+                    $fileUrl = 'https://www.apimapor.diaryies.web.id/storage/files/' . $data['file'];
+                @endphp
+
+                @if (in_array($extension, ['pdf', 'doc', 'docx', 'word']))
+                <div class="flex flex-col">
+                    <img src="{{ asset('images/pdfword.jpg') }}" class="h-full lg:h-[10rem]" alt="file">
+                    <a href="{{ $fileUrl }}" target="_blank" class="link text-blue-600 mt-5 text-center">Download File</a>
+                </div>
+
+                @else
+                    <img src="https://www.apimapor.diaryies.web.id/storage/images/{{ $data['file'] }}" class="h-full lg:h-[30rem]" alt="file">
+                @endif
+            @endif
         </div>
 
+
+
+        
         <div class="mt-5">
             @php
                 $paragraphs = explode("\r\n\r\n", $data['body']);
             @endphp
             @foreach ($paragraphs as $paragraph)
-                <p class="font-arimo text-lg">{{ $paragraph }}</p>
+                <p class="font-arimo text-lg mb-8">{{ $paragraph }}</p>
             @endforeach
         </div>
+
+
     </div>
 </div>
 

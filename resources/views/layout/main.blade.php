@@ -17,7 +17,7 @@
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
 </head>
-<body class="min-h-[4000px]">
+<body class="">
     @yield('content')
 
 </body>

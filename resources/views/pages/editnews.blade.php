@@ -30,24 +30,20 @@
         <i class="mb-4 flex items-center my-auto ml-8">Back</i>
     </a>
 
-    <form action="/add" method="POST" enctype="multipart/form-data">
+    <form action="/edit/{{ $data['slug'] }}" method="POST" enctype="multipart/form-data">
       @csrf
+      @method('PUT')
       <div class="justify-center mx-auto items-center flex flex-col">
         @if (Session::has('err'))
         <h1 class="font-montserat text-base text-red-500 mt-3 font-bold">{{ session('err') }}</h1>
         @endif
           <h1 class="font-montserat text-base mt-3 font-bold">Title: </h1>
-          <input type="text" name="title" class="input input-bordered w-full lg:w-[50%]">
+          <input type="text" name="title" class="input input-bordered w-full lg:w-[50%]" value="{{ $data['title'] }}">
           @error('title')
           <h1 class="font-montserat text-base text-red-500 mt-3 font-bold">{{ $message }}</h1>
           @enderror
-          <h1 class="font-montserat text-base mt-3 font-bold">File: </h1>
-          <input type="file" class="file-input file-input-bordered w-full lg:w-[50%]" name="file">
-          @error('file')
-          <h1 class="font-montserat text-base text-red-500 mt-3 font-bold">{{ $message }}</h1>
-          @enderror
           <h1 class="font-montserat text-base mt-3 font-bold">Body: </h1>
-          <textarea name="body" id="body" rows="10" class="textarea textarea-bordered w-full lg:w-[50%]"></textarea>
+          <textarea name="body" id="body" rows="10" class="textarea textarea-bordered w-full lg:w-[50%]">{{ $data['body'] }}</textarea>
           @error('body')
           <h1 class="font-montserat text-base text-red-500 mt-3 font-bold">{{ $message }}</h1>
           @enderror
