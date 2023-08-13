@@ -8,11 +8,19 @@ use Illuminate\Support\Facades\Http;
 class PageController extends Controller
 {
     public function index(){
-        return view('pages.welcome');
+        $url = 'https://www.apimapor.diaryies.web.id/api/news';
+    
+        $response = Http::get($url);
+    
+        $data = $response->json()['dataDetail'];
+    
+        // Ambil hanya 1 data pertama dari array
+        $limitedData = array_slice($data, 0, 1);
+    
+        return view('pages.welcome', ['limitedData' => $limitedData]);
     }
-    public function details(){
-        return view('pages.details');
-    }
+    
+
     public function login(){
         return view('pages.login');
     }
@@ -26,18 +34,13 @@ class PageController extends Controller
         $response = Http::get($url);
 
         if ($response->status() == 401) {
-            return redirect('/news?page=1');
+            return redirect('/');
         } elseif ($response->status() == 200) {
             $dataPage = $response->json()['dataPage'];
             $data = $response->json()['dataDetail'];
 
         return view('pages.news', compact('data', 'page', 'dataPage'));
         }
-
-    }
-
-    public function detail(){
-        return view('pages.details');
     }
 
     public function add(){

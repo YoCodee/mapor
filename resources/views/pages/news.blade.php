@@ -59,7 +59,7 @@
           <p class="text-neutral-800 font-arimo">
             {{ Str::length($item['body']) > 250 ? Str::limit($item['body'], 250) : $item['body'] }}
           </p>
-          <div class="absolute bottom-[-20] left-4 lg:bottom-10 lg:left-5">
+          <div class="absolute bottom-[-20]  lg:bottom-10">
             <a href="/news/{{ $item['slug'] }}" class="text-xs text-orange-500">Read More...</a>
           </div>
         </div>
@@ -70,15 +70,21 @@
       @endforeach
 
       <div class="pagination flex justify-center gap-5">
-        @if ($page >= 1)
-            <a href="/news?page={{ $page + 1 }}" class="btn btn-success">Halaman Selanjutnya</a>
+        @if ($page == 1)
+
+        @endif
+        @if ($page > 0)
+            <a href="/news?page={{ $page + 1 }}" class="btn btn-success font-montserat">Halaman Selanjutnya</a>
         @endif
         @if ($page <= $dataPage['last_page'] && $page > 1)
-            <a href="/news?page={{ $page - 1 }}" class="btn btn-secondary">Halaman Sebelumnya</a>
+            <a href="/news?page={{ $page - 1 }}" class="btn btn-secondary font-montserat">Halaman Sebelumnya</a>
         @endif
+        
     </div>
   </div>
 </div>
+
+@include('partials.footer')
 
 
 @endsection

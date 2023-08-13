@@ -15,7 +15,7 @@
   />
   <link rel="stylesheet" href="aos-by-red.css">
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Document</title>
+    <title>Mapor</title>
 </head>
 <body class="">
     @yield('content')

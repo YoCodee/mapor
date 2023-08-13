@@ -144,7 +144,7 @@
 
 					<div class="h-full relative z-10">
 						<div x-show.immediate="testimonialActive === 1">
-							<p class="text-gray-600 serif font-normal text-sm italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl" x-show.transition="testimonialActive == 1">
+							<p class="text-gray-600 serif font-normal  italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl" x-show.transition="testimonialActive == 1">
 								Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 							</p>
 						</div>
@@ -260,65 +260,22 @@
 
 
 </section>
-<div class="berita px-[7%] my-8">
+<div class="berita px-[7%] mt-8">
     <div class="header-gallery flex justify-center py-5">
         <div class="text-center">
         <h1 class="text-4xl lg:text-5xl font-montserat font-extrabold text-black">Berita <span class="text-[#FFB600]">Terkait</span></h1>
-        <h2 class="text-xl lg:text-sm font-montserat font-extrabold text-gray-300">Informasi Berita di Desa </h2>
+        <h2 class="text-xl lg:text-sm font-montserat font-extrabold text-black">Informasi Berita di Desa </h2>
     </div>
-    </div>
-    <div class="flex gap-12 flex-wrap justify-center">
-    <div class="card max-w-sm border-none" data-aos="fade-up">
-        <div class="imageg w-full relative">
-            <img src="{{ asset('images/P1060362.JPG')}}" alt="">
-            <div class="absolute bg-white h-5 w-full bottom-[-7] left-[0] rotate-2"></div>
-        </div>
-        <div class="isi px-[5%]">
-            <div class="judul font-montserat text-2xl font-bold">Berita</div>
-            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-                <small>Published <u>13.01.2022</u> by
-                  <a href="#!">Anna Maria Doe</a></small>
-              </p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolorem iusto perspiciatis aliquam minima temporibus recusandae laborum reprehenderit tempora provident delectus, odit corporis mollitia accusamus harum!</p>
-        </div>
-    </div>
-    <div class="card max-w-sm border-none" data-aos="fade-up">
-        <div class="imageg w-full relative">
-            <img src="{{ asset('images/P1060362.JPG')}}" alt="">
-            <div class="absolute bg-white h-5 w-full bottom-[-7] left-0 rotate-2"></div>
-        </div>
-        <div class="isi px-[5%]">
-            <div class="judul font-montserat text-2xl font-bold">Berita</div>
-            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-                <small>Published <u>13.01.2022</u> by
-                  <a href="#!">Anna Maria Doe</a></small>
-              </p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolorem iusto perspiciatis aliquam minima temporibus recusandae laborum reprehenderit tempora provident delectus, odit corporis mollitia accusamus harum!</p>
-        </div>
-    </div>
-    <div class="card max-w-sm border-none" data-aos="fade-up">
-        <div class="imageg w-full relative">
-            <img src="{{ asset('images/P1060362.JPG')}}" alt="">
-            <div class="absolute bg-white h-5 w-full bottom-[-7] left-0 rotate-2"></div>
-        </div>
-        <div class="isi px-[5%]">
-            <div class="judul font-montserat text-2xl font-bold">Berita</div>
-            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-                <small>Published <u>13.01.2022</u> by
-                  <a href="#!">Anna Maria Doe</a></small>
-              </p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolorem iusto perspiciatis aliquam minima temporibus recusandae laborum reprehenderit tempora provident delectus, odit corporis mollitia accusamus harum!</p>
-        </div>
     </div>
 </div>
 
-<div class="flex justify-center my-14">
-    <a href="">
-    <div class="bg-[#000000] w-72 px-4 py-4 text-center text-white duration-200 ease-linear hover:bg-[#FFB600]">
-        <h1>Berita Selanjutnya</h1>
-    </div>
-</a>
+<a href="/news">
+<div class="flex justify-center mb-14">
+      <div class="bg-[#000000] w-[50%] px-4 py-4 text-center text-white duration-200 ease-linear hover:bg-[#FFB600] hover:text-black">
+          <h1 class="font-arimo">Baca Berita Tentang Desa Mapur Terbaru!</h1>
+      </div>
 </div>
+</a>
 </div>
 
 @include('partials.footer')
