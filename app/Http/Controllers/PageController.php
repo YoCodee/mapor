@@ -14,10 +14,7 @@ class PageController extends Controller
     
         $data = $response->json()['dataDetail'];
     
-        // Ambil hanya 1 data pertama dari array
-        $limitedData = array_slice($data, 0, 1);
-    
-        return view('pages.welcome', ['limitedData' => $limitedData]);
+        return view('pages.welcome');
     }
     
 

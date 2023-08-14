@@ -4,8 +4,6 @@
 
 @section('content')
 
-
-
 <div id="controls-carousel" class="relative w-full" data-carousel="slide">
     <!-- Carousel wrapper -->
     <div class="relative h-[320px] overflow-hidden rounded-lg md:h-[444px] lg:h-[708px]">
@@ -71,6 +69,7 @@
 
 </div>
   @include('pages.body')
+  @include('partials.footer')
 <script>
 
 </script>
@@ -109,14 +108,6 @@ nav{
   right: 0;
   z-index: 9999;
   transition: 0.6s;
-  /*
-
-  flex
-  justify-between
-  items-center
-  bg-transparent
-  backdrop-blur-sm
-  fixed top-0 left-0 right-0 z-10 transition-[0.6s] */
 }
 
 

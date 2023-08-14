@@ -278,7 +278,7 @@
 </a>
 </div>
 
-@include('partials.footer')
+
 	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
   <script>
       let valueDisplays = document.querySelectorAll(".num");
