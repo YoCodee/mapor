@@ -25,8 +25,8 @@
     </div>
     </div>
 
-    <div class="wrapper1 flex flex-wrap mb-5">
-      <div class="container w-[28vmin] h-[28vmin] flex flex-col justify-around px-[1em] relative text-[16px] rounded-lg border-b-8 border-[#fedc56]">
+    <div class="wrapper1 flex flex-wrap">
+      <div class="container w-[28vmin] h-[28vmin] flex flex-col justify-around px-[1em] relative text-[16px] rounded-lg border-b-8 border-[rgb(254,220,86)]">
         <i class="fas fa-user"></i>
         <span class="num" data-val="2492">000</span>
         <span class="text">Jumlah Penduduk</span>
@@ -50,7 +50,7 @@
 
   </div>
 </div>
-  <div class="galery mt-5  bg-[#FFB600] left-0 right-0 px-[7%] py-8" >
+  <div class="galery mt-14  bg-[#FFB600] left-0 right-0 px-[7%] py-8" >
     <div class="header-gallery flex justify-center pb-5"  data-aos="zoom-out-up">
         <h1 class="text-4xl lg:text-6xl font-montserat font-extrabold text-white">Galleri Desa <span class="text-[#FFB600] bg-white px-2 rounded-sm">Mapur</span></h1>
     </div>
