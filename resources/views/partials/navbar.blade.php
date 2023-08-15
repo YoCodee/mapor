@@ -204,8 +204,8 @@ nav{
         </div>
         <div class="mt-auto">
             <div class="pt-6">
-                <a class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold  bg-gray-50 hover:bg-gray-100 rounded-xl" href="#">Sign in</a>
-                <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" href="#">Sign Up</a>
+                <a class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold bg-gray-50 hover:bg-gray-100 rounded-xl" href="">Add News</a>
+                <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" href="/datanews">Data News</a>
             </div>
             <p class="my-4 text-xs text-center text-gray-400">
                 <span>Copyright © 2021</span>
