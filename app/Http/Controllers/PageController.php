@@ -47,7 +47,7 @@ class PageController extends Controller
     public function addProses(Request $request){
         $request->validate([
             'title' => 'required',
-            'file' => 'required|mimes:png,jpg,jpeg,gif,docx,word,pdf,doc',
+            'file' => 'required|mimes:png,jpg,pdf,word,doc,jpeg,docx,gif|max:10000',
             'body' => 'required'
         ]);
 
@@ -129,7 +129,7 @@ class PageController extends Controller
 
     public function editFileNewsProses($slug, Request $request){
         $request->validate([
-            'file' => 'required|mimes:png,jpg,jpeg,gif,docx,word,pdf,doc'
+            'file' => 'required|mimes:png,jpg,pdf,word,doc,jpeg,docx,gif|max:10000',
         ]);
 
         $url = 'https://www.apimapor.diaryies.web.id/api/editfile/' . $slug;
