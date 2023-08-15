@@ -69,15 +69,15 @@
       </div>
       @endforeach
 
-      <div class="pagination flex justify-center gap-5">
+      <div class="pagination flex justify-center gap-3">
         @if ($page == 1)
 
         @endif
         @if ($page > 0)
-            <a href="/news?page={{ $page + 1 }}" class="btn btn-success font-montserat">Halaman Selanjutnya</a>
+            <a href="/news?page={{ $page + 1 }}" class="btn btn-success btn-sm lg:btn-md font-montserat text-xs lg:text-base">Halaman Selanjutnya</a>
         @endif
         @if ($page <= $dataPage['last_page'] && $page > 1)
-            <a href="/news?page={{ $page - 1 }}" class="btn btn-secondary font-montserat">Halaman Sebelumnya</a>
+            <a href="/news?page={{ $page - 1 }}" class="btn btn-primary btn-sm lg:btn-md font-montserat text-xs lg:text-base">Halaman Sebelumnya</a>
         @endif
 
     </div>
