@@ -176,7 +176,7 @@ nav{
         <li><a class="btnn text-md text-center m-auto justify-center items-center hover:text-[#8CC0DE] " href="#">Contact</a></li>
     </ul>
     <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200" href="/add">Add News</a>
-    <a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200" href="/datanews">Data News</a>
+    <a class="hidden lg:inline-block py-2 px-6 mr-4 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200" href="/datanews">Data News</a>
 
 </nav>
 <div class="navbar-menu relative z-50 hidden">
@@ -204,8 +204,8 @@ nav{
         </div>
         <div class="mt-auto">
             <div class="pt-6">
-                <a class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold  bg-gray-50 hover:bg-gray-100 rounded-xl" href="#">Sign in</a>
-                <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" href="#">Sign Up</a>
+                <a class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-xl" href="/add">Add News</a>
+                <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" href="/datanews">Data News</a>
             </div>
             <p class="my-4 text-xs text-center text-gray-400">
                 <span>Copyright © 2021</span>
