@@ -6,7 +6,7 @@
 
 <div id="controls-carousel" class="relative w-full" data-carousel="slide">
     <!-- Carousel wrapper -->
-    <div class="relative h-[320px] overflow-hidden rounded-lg md:h-[444px] lg:h-[708px]">
+    <div class="relative h-[248px] overflow-hidden rounded-lg md:h-[444px] lg:h-[708px]">
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <img src="{{ asset('images/11852424_4853433.jpg')}}" class="img absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"  alt="...">
 <div class="smk1 absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
@@ -16,7 +16,7 @@
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-            <<img src="{{ asset('images/11852424_4853433.jpg')}}" class="img absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"  alt="...">
+            <img src="{{ asset('images/11852424_4853433.jpg')}}" class="img absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"  alt="...">
             <div class="smk1 absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
             <h1 class=" text-[39px] lg:text-7xl m-auto text-center items-center justify-center font-bold text-white">Nama Desa</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti debitis ab esse rerum consectetur voluptatem.</p>

@@ -26,11 +26,33 @@
             <p class="mt-3 text-neutral-500 ">
                 <small>Published <u>{{ $data['date'] }}</u> by
                   <a href="#!">Admin</a></small>
+                  <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="ml-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-1 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Share <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                </svg></button>
+                    <!-- Dropdown menu -->
+                    <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                    <li class="flex justify-center items-center">
+                        <input class="input input-bordered input-xs text-black" id="text-copy" value="http://fe.test/news/{{$data['slug']}}" readonly>
+                    </li>
+                    <li class="flex justify-center items-center mt-2">
+                        <button class="btn btn-primary w-20 text-xs" onclick="copyText()">
+                            Copy to Clipboard
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
             </p>
+
         </div>
-      
+
+
+
+
+
         <div class="image-news w-full lg:w-full flex mx-auto justify-center mt-5">
-            
+
             @if (isset($data['file']) && !empty($data['file']))
                 @php
                     $extension = pathinfo($data['file'], PATHINFO_EXTENSION);
@@ -51,7 +73,7 @@
 
 
 
-        
+
         <div class="mt-5">
             @php
                 $paragraphs = explode("\r\n\r\n", $data['body']);
@@ -66,7 +88,13 @@
 </div>
 
 @endsection
-
+<script>
+    function copyText() {
+        var copyText = document.getElementById("text-copy");
+        copyText.select();
+        document.execCommand("copy");
+    }
+    </script>
 <style>
     .images {
     background: rgba(0, 0, 0, 0.6) url("./images/P1060362.JPG");

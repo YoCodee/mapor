@@ -50,7 +50,7 @@
         </div>
 
         <div class="relative mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
-          <h5 class="  text-lg font-bold">{{ $item['title'] }}</h5>
+          <a href="/news/{{ $item['slug'] }}"><h5 class="text-lg font-bold">{{ $item['title'] }}</h5></a>
 
           <p class="mb-3 text-neutral-500 dark:text-neutral-300">
             <small>Published <u>{{ $item['date'] }}</u> by
@@ -79,7 +79,7 @@
         @if ($page <= $dataPage['last_page'] && $page > 1)
             <a href="/news?page={{ $page - 1 }}" class="btn btn-secondary font-montserat">Halaman Sebelumnya</a>
         @endif
-        
+
     </div>
   </div>
 </div>

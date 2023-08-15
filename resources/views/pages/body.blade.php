@@ -20,7 +20,7 @@
         </p>
 
 
-        <button class="btn bg-[#000000] w-24 font-montserat text-white hover:bg-orange-600">Lihat</button>
+        <button class="btn bg-[#000000] w-24 font-montserat text-white hover:text-black hover:bg-[#fedc56]">Lihat</button>
       </div>
     </div>
     </div>
@@ -50,6 +50,22 @@
 
   </div>
 </div>
+<div class="berita px-[7%] mt-8 border-t-2 border-gray-100">
+    <div class="header-gallery flex justify-center py-5">
+        <div class="text-center">
+        <h1 class="text-4xl lg:text-5xl font-montserat font-extrabold text-black">Berita <span class="text-[#FFB600]">Terkait</span></h1>
+        <h2 class="text-xl lg:text-sm font-montserat font-extrabold text-black">Informasi Berita di Desa </h2>
+    </div>
+    </div>
+</div>
+
+<a href="/news">
+<div class="flex justify-center mb-14">
+      <div class="bg-[#000000] w-[50%] px-4 py-4 text-center text-white duration-200 ease-linear hover:bg-[#FFB600] hover:text-black">
+          <h1 class="font-arimo">Baca Berita Tentang Desa Mapur Terbaru!</h1>
+      </div>
+</div>
+</a>
   <div class="galery mt-14  bg-[#FFB600] left-0 right-0 px-[7%] py-8" >
     <div class="header-gallery flex justify-center pb-5"  data-aos="zoom-out-up">
         <h1 class="text-4xl lg:text-6xl font-montserat font-extrabold text-white">Galleri Desa <span class="text-[#FFB600] bg-white px-2 rounded-sm">Mapur</span></h1>
@@ -210,7 +226,7 @@
             <div class="p-6 xl:col-span-3">
                 <div class="grid gap-4 md:grid-cols-2">
                     <div class="grid content-center gap-4">
-                        <div class="p-6 rounded shadow-md dark:bg-gray-900">
+                        <div class="p-6 rounded shadow-md bg-gray-900">
                             <p>Sejak masuknya perusahaan sawit yang mengambil alih lahan bahkan hutan adat mereka, akhirnya ikatan kuat antara suku Mapur dengan alam mulai memudar karena kehidupan mereka yang berubah seiring berjalannya waktu. Ruang hidup suku Mapur sebagian sudah rusak dan terancam oleh aktivitas perkebunan sawit skala besar dan penambangan timah.</p>
                             <div class="flex items-center mt-4 space-x-4">
                                 <img src="https://source.unsplash.com/50x50/?portrait?1" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
@@ -220,7 +236,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="p-6 rounded shadow-md dark:bg-gray-900">
+                        <div class="p-6 rounded shadow-md bg-gray-900">
                             <p>keresahan masyarakat desa Mapur melonjak akibat aktivitas perusahaan perkebunan sawit PT Alam Lestari yang telah meresahkan mereka. Masyarakat desa Mapur akhirnya melakukan pertemuan dengan pihak perusahaan PT Alam Lestari yang dilakukan di Balai Desa Mapur.</p>
                             <div class="flex items-center mt-4 space-x-4">
                                 <img src="https://source.unsplash.com/50x50/?portrait?2" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
@@ -232,7 +248,7 @@
                         </div>
                     </div>
                     <div class="grid content-center gap-4">
-                        <div class="p-6 rounded shadow-md dark:bg-gray-900">
+                        <div class="p-6 rounded shadow-md bg-gray-900">
                             <p>Adat istiadat kerap diidentikkan dengan kearifan lokal masyarakat atau local wisdom yang tumbuh dari kebiasaan dan tradisi masyarakatnya. Untuk melestarikan kebudayaan dan tradisi suku mapur yang menjadi suku tertua di Pulau Bangka PT Timah Tbk bersama Lembaga Adat Mapur melakukan gerakan untuk melindungi, melestarikan, dan mencintai kebudayaan Indonesia yang ada di Bangka Belitung.</p>
                             <div class="flex items-center mt-4 space-x-4">
                                 <img src="https://source.unsplash.com/50x50/?portrait?3" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
@@ -242,7 +258,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="p-6 rounded shadow-md dark:bg-gray-900">
+                        <div class="p-6 rounded shadow-md bg-gray-900">
                             <p>Saat ini, wilayah hutan adat Suku Mapur tidak ada yang diakui oleh pemerintah. Wilayah hutan adat suku Mapur berubah menjadi HP (Hutan Produksi), APL (Area Penggunaan Lain), serta HL (Hutan Lindung) di bagian pesisir atau hutan mangrove. Setelah reformasi 1998 atau setelah Provinsi Kepulauan Bangka Belitung terbentuk tepatnya pada tahun 2000, akhirnya pemerintah mengeluarkan izin usaha yang memanfaatkan kawasan adat Suku Mapur</p>
                             <div class="flex items-center mt-4 space-x-4">
                                 <img src="https://source.unsplash.com/50x50/?portrait?4" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
@@ -260,22 +276,7 @@
 
 
 </section>
-<div class="berita px-[7%] mt-8">
-    <div class="header-gallery flex justify-center py-5">
-        <div class="text-center">
-        <h1 class="text-4xl lg:text-5xl font-montserat font-extrabold text-black">Berita <span class="text-[#FFB600]">Terkait</span></h1>
-        <h2 class="text-xl lg:text-sm font-montserat font-extrabold text-black">Informasi Berita di Desa </h2>
-    </div>
-    </div>
-</div>
 
-<a href="/news">
-<div class="flex justify-center mb-14">
-      <div class="bg-[#000000] w-[50%] px-4 py-4 text-center text-white duration-200 ease-linear hover:bg-[#FFB600] hover:text-black">
-          <h1 class="font-arimo">Baca Berita Tentang Desa Mapur Terbaru!</h1>
-      </div>
-</div>
-</a>
 </div>
 
 
