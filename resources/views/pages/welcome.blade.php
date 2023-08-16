@@ -91,25 +91,6 @@
   color: white;
 
 }
-nav.sticky{
-  padding:  5px 10px;
-  background-color: #07407D;
-}
-nav{
-  padding: 4px 2px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: transparent;
-  backdrop-filter: blur;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  transition: 0.6s;
-}
-
 
 .btnn::after{
     content: '';

@@ -1,4 +1,4 @@
-<div class="wrappere px-[7%] pt-24">
+<div class="wrappere px-[7%] pt-12 md:pt-24">
   <div class="wrup3">
       <div class="flex justify-center">
       <div
@@ -7,12 +7,13 @@
         class="h-96 w-72 lg:w-full mb-5 lg:mb-5  lg:h-full"
         src="{{ asset('images/image-removebg-preview (11).png')}}"
         alt="" />
-      <div class="flex flex-col  ml-8 p-0 ">
+      <div class="flex flex-col ml-0  md:ml-8 p-0 ">
         <h5
-          class="mb-2  font-extrabold text-black text-5xl font-montserat" data-aos="fade-left">
+          class="mb-4 text-center font-extrabold text-black text-5xl font-montserat" data-aos="fade-left">
           SELAMAT DATANG DI DESA MAPUR
+          <hr>
         </h5>
-        <p class=" mb-4 text-base lg:text-lg text-neutral-600 font-arimo" data-aos="fade-left">
+        <p class=" mb-4 text-base lg:text-lg text-neutral-600 font-arimo text-center" data-aos="fade-left">
          Suku Mapur merupakan salah satu suku di Provinsi Sumatra Selatan yang tinggal di Desa Air Abik, Pejem dan Tuing di Kecamatan Belinyu, Kabupaten Bangka Belitung. Dari tiga desa tersebut, persebaran Orang Suku Mapur terbanyak ada di Dusun Air Abik.[1] Suku Mapur dibedakan berdasarkan lokasi tempat tinggalnya.[2] Orang Mapur yang hidup di pedalaman, atau di hutan-hutan, dan yang tinggal di pesisir pantai. Orang Mapur yang tinggal di pesisir pantai lebih maju peradabannya daripada yang tinggal di pedalaman. Hal ini karena mereka lebih banyak menyerap kebudayaan dan pengetahuan baru.
           <br>
           <br>
@@ -20,13 +21,13 @@
         </p>
 
 
-        <button class="btn bg-[#000000] w-24 font-montserat text-white hover:text-black hover:bg-[#fedc56]">Lihat</button>
+        <button class="btn bg-[#000000] w-24 font-montserat text-white hover:text-black hover:bg-[#fedc56] mx-auto">Lihat</button>
       </div>
     </div>
     </div>
 
     <div class="wrapper1 flex flex-wrap">
-      <div class="container w-[28vmin] h-[28vmin] flex flex-col justify-around px-[1em] relative text-[16px] rounded-lg border-b-8 border-[rgb(254,220,86)]">
+      <div class="container w-[vmin] h-[28vmin] flex flex-col justify-around px-[1em] relative text-[16px] rounded-lg border-b-8 border-[rgb(254,220,86)]">
         <i class="fas fa-user"></i>
         <span class="num" data-val="2492">000</span>
         <span class="text">Jumlah Penduduk</span>
@@ -67,7 +68,7 @@
 </div>
 </a>
   <div class="galery mt-14  bg-[#FFB600] left-0 right-0 px-[7%] py-8" >
-    <div class="header-gallery flex justify-center pb-5"  data-aos="zoom-out-up">
+    <div class="header-gallery flex justify-center pb-5 text-center"  data-aos="zoom-out-up">
         <h1 class="text-4xl lg:text-6xl font-montserat font-extrabold text-white">Galleri Desa <span class="text-[#FFB600] bg-white px-2 rounded-sm">Mapur</span></h1>
     </div>
     <div class="flex flex-wrap gap-12 justify-center my-12">
@@ -124,7 +125,7 @@
 
     </div>
     <div class="px-[7%] antialiased">
-        <div class="header-gallery flex justify-center pb-5">
+        <div class="header-gallery flex justify-center pb-5 text-center">
             <h1 class="text-4xl lg:text-5xl mt-12 font-montserat font-medium text-black">Apa Kata kami tentang Desa <span class="text-[#FFB600] font-extrabold">Mapur</span></h1>
         </div>
         <div class="my-10 md:my-12 containers mx-auto flex flex-col md:flex-row shadow-sm overflow-hidden" data-aos="zoom-out-down" x-data="{ testimonialActive: 2 }" x-cloak>

@@ -4,15 +4,7 @@
 
 @section('content')
 
-<style>
-    .images {
-    background: rgba(0, 0, 0, 0.6) url("./images/11852424_4853433.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-blend-mode: darken;
-  }
-</style>
+
 
 <div class="images">
     <div class="smk1 p-20 lg:p-36" style="margin: auto">
@@ -88,7 +80,7 @@
 
     </div>
 </div>
-
+@include('partials.footer')
 @endsection
 
 <script>
@@ -98,3 +90,13 @@ function copyText() {
     document.execCommand("copy");
 }
 </script>
+
+<style>
+    .images {
+    background: rgba(0, 0, 0, 0.6) url("./images/P1060362.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+</style>
