@@ -8,27 +8,19 @@ use Illuminate\Support\Facades\Http;
 class PageController extends Controller
 {
     public function index(){
-        $url = 'https://www.apimapor.diaryies.web.id/api/news';
-    
-        $response = Http::get($url);
-    
-        $data = $response->json()['dataDetail'];
-    
         return view('pages.welcome');
     }
     
 
-    public function login(){
-        return view('pages.login');
-    }
-
     public function news(Request $request){
         $page = $request->query('page', 1);
 
-        $baseUrl = 'https://www.apimapor.diaryies.web.id/api/news';
+        $baseUrl = 'https://apimapor.diaryies.web.id/api/news';
         $url = "$baseUrl?page=$page";
 
-        $response = Http::get($url);
+        $response = Http::withHeaders([
+            'APP_KEY' => 'mapurjaya321'
+        ])->get($url);
 
         if ($response->status() == 401) {
             return redirect('/');
@@ -56,7 +48,9 @@ class PageController extends Controller
         $file = $request->file('file');
         $fileName = $file->getClientOriginalName();
 
-        $response = Http::attach('file', file_get_contents($file->path()), $fileName)->post($url, [
+        $response = Http::withHeaders([
+            'APP_KEY' => 'mapurjaya321'
+        ])->attach('file', file_get_contents($file->path()), $fileName)->post($url, [
             'title' => $request->title,
             'body' => $request->body,
             'userId' => 1
@@ -72,7 +66,9 @@ class PageController extends Controller
     public function detailInfo($slug){
         $url = 'https://www.apimapor.diaryies.web.id/api/news/' . $slug;
 
-        $response = Http::get($url);
+        $response = Http::withHeaders([
+            'APP_KEY' => 'mapurjaya321'
+        ])->get($url);
 
         $data = $response->json()['data'];
         return view('pages.details', compact('data'));
@@ -81,7 +77,9 @@ class PageController extends Controller
     public function dataNews(){
         $url = 'https://www.apimapor.diaryies.web.id/api/allnews';
 
-        $response = Http::get($url);
+        $response = Http::withHeaders([
+            'APP_KEY' => 'mapurjaya321'
+        ])->get($url);
 
         $data = $response->json()['data'];
         return view('pages.datanews', compact('data'));
@@ -90,7 +88,9 @@ class PageController extends Controller
     public function editNews($slug){
         $url = 'https://www.apimapor.diaryies.web.id/api/news/' . $slug;
 
-        $response = Http::get($url);
+        $response = Http::withHeaders([
+            'APP_KEY' => 'mapurjaya321'
+        ])->get($url);
 
         $data = $response->json()['data'];
         return view('pages.editnews', compact('data'));
@@ -104,7 +104,9 @@ class PageController extends Controller
 
         $url = 'https://www.apimapor.diaryies.web.id/api/edit/' . $slug;
 
-        $response = Http::put($url, [
+        $response = Http::withHeaders([
+            'APP_KEY' => 'mapurjaya321'
+        ])->put($url, [
             'title' => $request->title,
             'body' => $request->body
         ]);
@@ -121,7 +123,9 @@ class PageController extends Controller
     public function editFileNews($slug){
         $url = 'https://www.apimapor.diaryies.web.id/api/news/' . $slug;
 
-        $response = Http::get($url);
+        $response = Http::withHeaders([
+            'APP_KEY' => 'mapurjaya321'
+        ])->get($url);
 
         $data = $response->json()['data'];
         return view('pages.editfilenews', compact('data'));
@@ -137,7 +141,9 @@ class PageController extends Controller
         $file = $request->file('file');
         $fileName = $file->getClientOriginalName();
 
-        $response = Http::attach('file', file_get_contents($file->path()), $fileName)->post($url);
+        $response = Http::withHeaders([
+            'APP_KEY' => 'mapurjaya321'
+        ])->attach('file', file_get_contents($file->path()), $fileName)->post($url);
 
         if ($response->status() == 200) {
             return redirect('/news');
@@ -149,7 +155,9 @@ class PageController extends Controller
     public function deleteNews($slug){
         $url = 'https://www.apimapor.diaryies.web.id/api/delete/' . $slug;
 
-        $response = Http::delete($url);
+        $response = Http::withHeaders([
+            'APP_KEY' => 'mapurjaya321'
+        ])->delete($url);
 
         if ($response->status() == 200) {
             return redirect('/news');
