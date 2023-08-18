@@ -4,12 +4,10 @@
 
 @section('content')
 
-
-
 <div class="images">
     <div class="smk1 p-20 lg:p-36" style="margin: auto">
         <h1 class="md:text-7xl text-5xl m-auto text-center items-center justify-center font-bold text-white" >
-          Tambah <span>Berita</span>
+          Detail <span>Berita</span>
         </h1>
         <p class="animate__animated animate__fadeInUp animate__slow md:text-md text-sm">
           Anyone who as never made a mistake has never tried anything new
@@ -93,7 +91,7 @@ function copyText() {
 
 <style>
     .images {
-    background: rgba(0, 0, 0, 0.6) url("./images/fotoutama.jpg");
+    background: rgba(0, 0, 0, 0.6) url("https://www.mongabay.co.id/wp-content/uploads/2020/08/Rumah-asli-warga-Desa-Mapur-di-wilayah-pesisir-yang-ditandai-dengan-dinding-kayunya.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -134,7 +134,7 @@ nav{
             </svg>
         </button>
     </div>
-    <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center  lg:space-x-6">
+    <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center gap-3">
         <li><a class="btnn text-md text-center m-auto justify-center items-center hover:text-[#8CC0DE]  " href="/">Home</a></li>
         <li class="text-gray-300">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
@@ -249,9 +249,6 @@ nav{
       btnEl.classList.add("special")
     })
     })
-    // btnEl.addEventListener("click", () =>{
-    //   btnEl.classList.add("special")
-    // })
 
     // Burger menus
     document.addEventListener('DOMContentLoaded', function() {

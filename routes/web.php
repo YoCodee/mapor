@@ -47,3 +47,4 @@ Route::post('/login', [AuthController::class, 'loginProses'])->name('loginProses
 Route::get('/news/{slug}', [PageController::class, 'detailInfo'])->name('detailInfo');
 
 
+
