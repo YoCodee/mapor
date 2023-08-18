@@ -27,7 +27,7 @@
       </div>
 </div>
 <div class="breadcomp mt-5">
-    <div class="flex flex-wrap justify-center align-center gap-4 text-center px-4 text-blue-600 pr-1 underline font-arimo lg:text-lg">
+    <div class="flex flex-wrap justify-center align-center gap-4 text-center px-4 text-blue-600 underline font-arimo lg:text-lg">
         <a href="#tradisilisan" class="hover:text-[#fedc56]">Tradisi Lisan</a>
         <a href="#manuskrip" class="hover:text-[#fedc56]">Manuskrip</a>
         <a href="#adatistiadat" class="hover:text-[#fedc56]">Adat istiadat</a>
@@ -150,28 +150,8 @@
     <div class="flex flex-col lg:flex-row lg:space-x-12">
 
       <div class="px-4 lg:px-0 mt-2 text-gray-700 text-lg leading-relaxed w-full font-arimo">
-        {{-- <p class="pb-6">Kepercayaan pada adat leluhur diturunkan melalui tradisi lisan secara turun temurun.Di sisi lain, kepercayaan
-          Orang Lom telah berevolusi sebagai dampak persentuhan dengan agama islam khususnya.Kepercayaan tersebut
-          masih bersigat fungsional, karena adat leluhur masih menjadi sumber kepercayaan,sumber norma dan
-          sumber dalam menata kehidupan dan budaya mereka.</p> --}}
-        <p class="pb-6">Informasi Null</p>
-
-        {{-- <p class="pb-6">Ini menunjukkan bahwa teori Tylor yang menyebutkan bahwa kepercayaan masyarakat pada adat
-          leluhur sebagai sumber kepercayaan masyarakat primitif,terbantah dalam konstek Orang Lom. Walaupun demikian,evolusi kepercayaan atau perubahan kepercayaan
-          menjadi penganut agama resmi terjadi Orang Lom dan Lebih disebabkan oleh unsur eksternal.
-        </p>
-
-        <div class="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
-         Formalisasi agama orang Lom Suku Mapur memperkuat latensi kepercayaan yang terikat dengan adat leluhur yang telah diwariskan secara
-         turun-temurun melalui tradisi lisan, ratusan bahkan ribuan tahun yang lalu.
-        </div>
-
-        <h2 class="text-2xl text-gray-800 font-semibold mb-4 mt-4">Bagaimana pengaruh implementasi kepercayaan Orang Lom terhadap kebudayaan tradisi lisan mereka, yang tercermin dalam penggunaan beragam simbol? </h2>
-
-        <p class="pb-6">Implementasi kepercayaan Orang Lom memberikan dampak pada kebudayaan tradisi lisan Orang Lom yang dapat dipahami melalui simbol-simbol yang digunakan. Simbol-simbol, baik yang bersifat abstrak maupun konkrit, bersifat fisik maupun nonfisik, bersifat primer maupun skunder, bersifat sakral maupun profan, bersifat memiliki makna langsung maupun tak langsung, membentuk karakteristik identitas yang tidak dimiliki oleh orang lain maupun suku lain. </p> --}}
-
-
-
+        <p class="pb-6">
+          Ritus adalah serangkaian tindakan atau upacara yang dijalankan secara berulang-ulang dan memiliki makna simbolis dalam suatu budaya atau agama. Ritus dapat melibatkan tindakan-tindakan seperti ucapan kata-kata khusus, gerakan tubuh tertentu, penggunaan objek-objek simbolis, atau prosesi tertentu yang memiliki arti mendalam bagi masyarakat yang melaksanakannya. Ritus sering kali digunakan untuk menandai peristiwa penting seperti kelahiran, kematian, perkawinan, atau peralihan tahapan hidup. Selain itu, ritus juga dapat memiliki tujuan seperti menghormati leluhur, memperkuat ikatan sosial, atau mendekatkan individu dengan aspek spiritual atau keagamaan. Ritual memiliki peran penting dalam mempertahankan identitas budaya dan spiritualitas suatu kelompok masyarakat.</p>
       </div>
 </main>
 <main class="mt-10">

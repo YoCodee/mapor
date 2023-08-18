@@ -29,7 +29,7 @@
       </div>
 </div>
 <div class="breadcomp mt-5">
-    <div class="flex flex-wrap justify-center align-center gap-4 text-center px-4 text-blue-600 pr-1 underline font-arimo lg:text-lg">
+    <div class="flex flex-wrap justify-center align-center gap-4 text-center px-4 text-blue-600  underline font-arimo lg:text-lg">
         <a href="#gebong" class="hover:text-[#fedc56]">Yayasan Gebong Memarong Mapur</a>
         <a href="#sanggar" class="hover:text-[#fedc56]">Sanggar</a>
         <a href="#silat" class="hover:text-[#fedc56]">Perguruan Silat</a>
@@ -105,14 +105,14 @@
       <div class="mb-4 md:mb-0 w-full mx-auto relative" id="sanggar">
         <div class="px-4 lg:px-0">
           <h2 class="text-4xl font-semibold text-gray-800 leading-tight font-montserat">
-            sanggar
+            Sanggar
           </h2>
       </div>
 
       <div class="flex flex-col font-arimo ">
 
         <div class="px-4 lg:px-0 mt-2 text-gray-700 text-lg leading-relaxed w-full ">
-          <p class="pb-6"> sebuah tempat atau kelompok yang terlibat dalam aktivitas budaya atau seni tradisional, mungkin saja terdapat berbagai macam tradisi dan praktik yang dilakukan di sana. Ini bisa meliputi pertunjukan tarian, pameran seni, lokakarya kerajinan tangan, dan sebagainya. Untuk informasi lebih lanjut tentang tradisi di Sanggar Desa Mapur,</p>
+          <p class="pb-6">Sebuah tempat atau kelompok yang terlibat dalam aktivitas budaya atau seni tradisional, mungkin saja terdapat berbagai macam tradisi dan praktik yang dilakukan di sana. Ini bisa meliputi pertunjukan tarian, pameran seni, lokakarya kerajinan tangan, dan sebagainya. Untuk informasi lebih lanjut tentang tradisi di Sanggar Desa Mapur,</p>
 
 
           <p class="pb-6">"sanggar" bisa merujuk kepada pusat kegiatan budaya, seni, atau kerajinan tradisional di banyak daerah di Indonesia. Sanggar sering kali menjadi tempat di mana masyarakat lokal berkumpul untuk mempraktikkan dan memelihara warisan budaya mereka, seperti tarian, musik, seni lukis, dan lain sebagainya.</p>
@@ -133,7 +133,7 @@
       <div class="flex flex-col font-arimo ">
 
         <div class="px-4 lg:px-0 mt-2 text-gray-700 text-lg leading-relaxed w-full ">
-          <p class="pb-6"> Informasi Null</p>
+          <p class="pb-6">Pencak Silat Desa Mapur di Bangka Belitung memiliki keunikan dan warisan budaya yang kaya. Dalam setiap gerakan dan tekniknya, Pencak Silat Mapur mencerminkan identitas serta sejarah masyarakat setempat. Di tengah pesona alam yang indah, para praktisi Pencak Silat Desa Mapur menjaga tradisi ini sebagai bentuk penghormatan terhadap leluhur dan warisan budaya mereka. Gerakan-gerakan yang elegan dan kuat dalam Pencak Silat Mapur tidak hanya berfungsi sebagai seni bela diri, tetapi juga menjadi cara untuk menjaga kebugaran fisik dan mental. Dengan keterlibatan masyarakat dalam melestarikan tradisi ini, Pencak Silat Desa Mapur menjadi simbol kebersamaan dan kekayaan kultural yang memperkaya Bangka Belitung serta menginspirasi generasi muda untuk menghargai dan meneruskan warisan berharga ini.</p>
 
 
 
