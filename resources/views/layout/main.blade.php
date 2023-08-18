@@ -29,4 +29,10 @@
         once: true,
       });
   </script>
+
+  <style>
+     html{
+    scroll-behavior: smooth;
+  }
+  </style>
 </html>

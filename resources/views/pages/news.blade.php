@@ -90,7 +90,7 @@
 @endsection
 <style>
 .images {
-    background: rgba(0, 0, 0, 0.6) url("./images/P1060362.JPG");
+    background: rgba(0, 0, 0, 0.6) url("./images/fotoutama.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

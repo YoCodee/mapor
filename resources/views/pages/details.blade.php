@@ -27,7 +27,7 @@
             <h1 class="font-montserat text-4xl lg:text-5xl font-bold">{{ $data['title'] }}</h1>
             <p class="mt-3 text-neutral-500 flex justify-between">
                 <small>Published <u>{{ $data['date'] }}</u> by
-                  <a href="#!">Admin</a></small> 
+                  <a href="#!">Admin</a></small>
             <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="ml-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-1 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Share <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
         </svg></button>
@@ -47,9 +47,9 @@
 
             </p>
         </div>
-      
+
         <div class="image-news w-full lg:w-full flex mx-auto justify-center mt-5">
-            
+
             @if (isset($data['file']) && !empty($data['file']))
                 @php
                     $extension = pathinfo($data['file'], PATHINFO_EXTENSION);
@@ -67,7 +67,7 @@
                 @endif
             @endif
         </div>
-        
+
         <div class="mt-5">
             @php
                 $paragraphs = explode("\r\n\r\n", $data['body']);
@@ -84,19 +84,20 @@
 @endsection
 
 <script>
-function copyText() {  
-    var copyText = document.getElementById("text-copy");  
-    copyText.select();  
+function copyText() {
+    var copyText = document.getElementById("text-copy");
+    copyText.select();
     document.execCommand("copy");
 }
 </script>
 
 <style>
     .images {
-    background: rgba(0, 0, 0, 0.6) url("./images/P1060362.JPG");
+    background: rgba(0, 0, 0, 0.6) url("./images/fotoutama.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-blend-mode: darken;
 
   }
 </style>

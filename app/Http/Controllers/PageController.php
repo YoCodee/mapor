@@ -10,7 +10,9 @@ class PageController extends Controller
     public function index(){
         return view('pages.welcome');
     }
-    
+
+
+
 
     public function news(Request $request){
         $page = $request->query('page', 1);

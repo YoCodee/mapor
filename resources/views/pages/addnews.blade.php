@@ -6,7 +6,7 @@
 
 <style>
     .images {
-    background: rgba(0, 0, 0, 0.6) url("./images/P1060362.JPG");
+    background: rgba(0, 0, 0, 0.6) url(".images/fotoutama.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -64,7 +64,7 @@
     bodyTextarea.addEventListener('input', () => {
         // Mengganti newline dengan tag <p> saat pengguna menekan Enter
         const paragraphs = bodyTextarea.value.split('\n').map(para => `<p>${para}</p>`).join('<br>');
-        
+
         // Menampilkan paragraf yang dihasilkan dalam div output
         bodyTextarea.innerHTML = paragraphs;
     });

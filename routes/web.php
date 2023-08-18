@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\NavbarController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,6 +19,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [PageController::class, 'index'])->name('index');
 Route::get('/news', [PageController::class, 'news'])->name('news');
 Route::get('/detail', [PageController::class, 'detail'])->name('detail');
+Route::get('/warisan', [NavbarController::class, 'warisan'])->name('warisan');
+Route::get('/lembaga', [NavbarController::class, 'lembaga'])->name('lembaga');
+Route::get('/gebongmemarong', [NavbarController::class, 'gebongmemarong'])->name('gebongmemarong');
 
 Route::group(['middleware' => 'hakakses'], function (){
     Route::get('/add', [PageController::class, 'add'])->name('add');

@@ -5,7 +5,7 @@
       class="flex flex-col justify-center items-center rounded-lg md:max-w-7xl md:flex-row">
       <img
         class="h-96 w-72 lg:w-full mb-5 lg:mb-5  lg:h-full"
-        src="{{ asset('images/image-removebg-preview (11).png')}}"
+        src="{{asset('images/image-removebg-preview (11).png')}}"
         alt="" />
       <div class="flex flex-col ml-0  md:ml-8 p-0 ">
         <h5
@@ -67,15 +67,15 @@
       </div>
 </div>
 </a>
-  <div class="galery mt-14  bg-[#FFB600] left-0 right-0 px-[7%] py-8" >
-    <div class="header-gallery flex justify-center pb-5 text-center"  data-aos="zoom-out-up">
+  <div class="galery mt-14  bg-[#FFB600] left-0 right-0 px-[7%] py-8" id="galeri">
+    <div class="header-gallery flex justify-center pb-5 text-center"  >
         <h1 class="text-4xl lg:text-6xl font-montserat font-extrabold text-white">Galleri Desa <span class="text-[#FFB600] bg-white px-2 rounded-sm">Mapur</span></h1>
     </div>
     <div class="flex flex-wrap gap-12 justify-center my-12">
-    <div class="max-w-sm bg-white border border-gray-200 rounded-2xl shadow-2xl  dark:bg-gray-800 dark:border-gray-700 "data-aos="zoom-in">
+    <div class="max-w-sm bg-white border border-gray-200 rounded-2xl shadow-2xl  dark:bg-gray-800 dark:border-gray-700 ">
         <div class="relative overflow-hidden bg-cover bg-no-repeat flex items-center justify-center h-56">
             <img
-              src="{{ asset('images/P1060362.JPG')}}"
+              src="{{asset('images/fotoutama.jpg')}}"
               class="object-cover w-full h-full transition duration-300 ease-in-out hover:scale-110 rounded-t-2xl"
               alt="Louvre" />
               <div
@@ -88,10 +88,10 @@
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
         </div>
     </div>
-    <div class="max-w-sm bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 " data-aos="zoom-in">
+    <div class="max-w-sm bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 ">
         <div class="relative overflow-hidden bg-cover bg-no-repeat flex items-center justify-center h-56">
             <img
-              src="{{ asset('images/P1060362.JPG')}}"
+              src="{{asset('images/fotoutama.jpg')}}"
               class="object-cover w-full h-full transition duration-300 ease-in-out hover:scale-110 rounded-t-2xl"
               alt="Louvre" />
               <div
@@ -104,10 +104,10 @@
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
         </div>
     </div>
-    <div class="max-w-sm bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 " data-aos="zoom-in">
+    <div class="max-w-sm bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 ">
         <div class="relative overflow-hidden bg-cover bg-no-repeat flex items-center justify-center h-56">
             <img
-              src="{{ asset('images/P1060362.JPG')}}"
+              src="{{asset('images/fotoutama.jpg')}}"
               class="object-cover w-full h-full transition duration-300 ease-in-out hover:scale-110 rounded-t-2xl"
               alt="Louvre" />
               <div
@@ -125,18 +125,16 @@
 
     </div>
     <div class="px-[7%] antialiased">
-        <div class="header-gallery flex justify-center pb-5 text-center">
-            <h1 class="text-4xl lg:text-5xl mt-12 font-montserat font-medium text-black">Apa Kata kami tentang Desa <span class="text-[#FFB600] font-extrabold">Mapur</span></h1>
+        <div class="header-gallery flex justify-center pb-5 text-center" id="wisata">
+            <h1 class="text-4xl lg:text-5xl mt-12 font-montserat font-medium text-black">Wisata Desa <span class="text-[#FFB600] font-extrabold">Mapur</span></h1>
         </div>
-        <div class="my-10 md:my-12 containers mx-auto flex flex-col md:flex-row shadow-sm overflow-hidden" data-aos="zoom-out-down" x-data="{ testimonialActive: 2 }" x-cloak>
-			<div class="relative w-full py-2 md:py-24 bg-indigo-700 md:w-1/2 flex flex-col item-center justify-center">
+        <div class="my-10 md:my-12 containers mx-auto flex flex-col md:flex-row shadow-sm overflow-hidden" x-data="{ testimonialActive: 2 }" x-cloak>
+			<div class="relative w-full py-2 md:py-24 md:w-1/2 flex flex-col item-center justify-center wisata">
 
-				<div class="absolute top-0 left-0 z-10 grid-indigo w-16 h-16 md:w-40 md:h-40 md:ml-20 md:mt-24"></div>
 
-				<div class="relative text-2xl md:text-5xl py-2 px-6 md:py-6 md:px-1 md:w-64 md:mx-auto text-indigo-100 font-semibold leading-tight tracking-tight mb-0 z-20">
-					<span class="md:block">What Our</span>
-					<span class="md-block">Customers</span>
-					<span class="block">Are Saying!</span>
+				<div class="relative text-2xl md:text-5xl py-24 px-6 md:py-6 md:px-1 text-center  md:mx-auto text-indigo-100 font-semibold leading-tight tracking-tight mb-0 z-20 opacity-50">
+					<p class="font-montserat">Wisata Pantai Tuing</p>
+
 				</div>
 
 				<div class="absolute right-0 bottom-0 mr-4 mb-4 hidden md:block">
@@ -162,21 +160,46 @@
 					<div class="h-full relative z-10">
 						<div x-show.immediate="testimonialActive === 1">
 							<p class="text-gray-600 serif font-normal  italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl" x-show.transition="testimonialActive == 1">
-								Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+								Pantai Tuing, yang terletak di Pulau Bangka, adalah destinasi wisata yang menakjubkan dengan pesona alamnya yang memikat. Pantai ini menawarkan pasir putih lembut yang kontras dengan air laut berwarna biru jernih, menciptakan pemandangan yang sangat menawan.
 							</p>
 						</div>
 
 						<div x-show.immediate="testimonialActive === 2">
 							<p class="text-gray-600 serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl" x-show.transition="testimonialActive == 2">
-								Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                                <div class=" md:max-w-2xl mx-auto px-5">
+                                    <table class=" w-full mx-auto bg-white shadow-md rounded-lg overflow-hidden">
+                                      <thead class="bg-gray-200 text-gray-700">
+                                        <tr>
+                                          <th class="px-6 py-4 text-left"></th>
+                                          <th class="px-2 py-4 text-left">Harga Tiket Masuk</th>
+                                          <th class="px-2 py-4 text-left"></th>
+                                        </tr>
+                                      </thead>
+                                      <tbody class="divide-y divide-gray-300">
+                                        <tr>
+                                          <td class="px-8 py-4">Tiket Normal</td>
+
+                                          <td class="px-6 py-4">Rp5.000</td>
+                                        </tr>
+                                        <tr>
+                                          <td class="px-8 py-4">Biaya Pondok</td>
+
+                                          <td class="px-6 py-4">Rp15.000</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="px-8">Tarif Penginapan</td>
+
+                                            <td class="px-6 py-4">Mulai dari Rp500.000-900.000</td>
+                                        </tr>
+                                        <!-- Add more rows as needed -->
+                                      </tbody>
+                                    </table>
+                                  </div>
 							</p>
 						</div>
 
-						<div x-show.immediate="testimonialActive === 3">
-							<p class="text-gray-600 serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl" x-show.transition="testimonialActive == 3">
-								Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-							</p>
-						</div>
+
 					</div>
 
 					<div class="flex my-4 justify-center items-center">
@@ -184,28 +207,23 @@
 							@click.prevent="testimonialActive = 1"
 							class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline inline-block rounded-full mx-2"
 							:class="{'h-12 w-12 opacity-25 bg-indigo-300 text-gray-600': testimonialActive != 1, 'h-16 w-16 opacity-100 bg-indigo-600 text-white': testimonialActive == 1 }"
-						>JD</button>
+						>DT</button>
 						<button
 							@click.prevent="testimonialActive = 2"
 							class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline h-16 w-16 inline-block bg-indigo-600 rounded-full mx-2"
 							:class="{'h-12 w-12 opacity-25 bg-indigo-300 text-gray-600': testimonialActive != 2, 'h-16 w-16 opacity-100 bg-indigo-600 text-white': testimonialActive == 2 }"
-						>WD</button>
-						<button
-							@click.prevent="testimonialActive = 3"
-							class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline h-12 w-12 inline-block bg-indigo-600 rounded-full mx-2"
-							:class="{'h-12 w-12 opacity-25 bg-indigo-300 text-gray-600': testimonialActive != 3, 'h-16 w-16 opacity-100 bg-indigo-600 text-white': testimonialActive == 3 }"
-						>JW</button>
+						>PW</button>
 					</div>
 
 					<div class="flex justify-center px-6 pt-2 pb-6 md:py-6">
 						<div class="text-center" x-show="testimonialActive == 1">
-							<h2 class="text-sm md:text-base font-bold text-gray-700 leading-tight">John Doe</h2>
-							<small class="text-gray-500 text-xs md:text-sm truncate">CEO, ABC Inc.</small>
+							<h2 class="text-sm md:text-base font-bold text-gray-700 leading-tight">Daya Tarik</h2>
+
 						</div>
 
 						<div class="text-center" x-show="testimonialActive == 2">
-							<h2 class="text-sm md:text-base font-bold text-gray-700 leading-tight">Winter Doe</h2>
-							<small class="text-gray-500 text-xs md:text-sm truncate">CTO, XYZ Corp.</small>
+							<h2 class="text-sm md:text-base font-bold text-gray-700 leading-tight">Paket Wisata</h2>
+
 						</div>
 
 						<div class="text-center" x-show="testimonialActive == 3">
@@ -224,7 +242,7 @@
                 <h2 class="text-4xl font-bold">Mengenal Lebih Dalam tentang Desa Mapur</h2>
                 <p class="dark:text-gray-400">Data-data ini diambil dari data yang sudah beredar di Internet dan Warga Sekitar</p>
             </div>
-            <div class="p-6 xl:col-span-3">
+            <div class="p-0 lg:p-6 xl:col-span-3">
                 <div class="grid gap-4 md:grid-cols-2">
                     <div class="grid content-center gap-4">
                         <div class="p-6 rounded shadow-md dark:bg-gray-700">
@@ -232,8 +250,8 @@
                             <div class="flex items-center mt-4 space-x-4">
                                 <img src="https://source.unsplash.com/50x50/?portrait?1" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
                                 <div>
-                                    <p class="text-lg font-semibold">Leroy Jenkins</p>
-                                    <p class="text-sm dark:text-gray-400">CTO of Company Co.</p>
+                                    <p class="text-lg font-semibold">Orang 1</p>
+                                    <p class="text-sm dark:text-gray-400">Masyarakat</p>
                                 </div>
                             </div>
                         </div>
@@ -242,8 +260,8 @@
                             <div class="flex items-center mt-4 space-x-4">
                                 <img src="https://source.unsplash.com/50x50/?portrait?2" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
                                 <div>
-                                    <p class="text-lg font-semibold">Leroy Jenkins</p>
-                                    <p class="text-sm dark:text-gray-400">CTO of Company Co.</p>
+                                    <p class="text-lg font-semibold">Orang 2</p>
+                                    <p class="text-sm dark:text-gray-400">Masyarakat</p>
                                 </div>
                             </div>
                         </div>
@@ -254,8 +272,8 @@
                             <div class="flex items-center mt-4 space-x-4">
                                 <img src="https://source.unsplash.com/50x50/?portrait?3" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
                                 <div>
-                                    <p class="text-lg font-semibold">Leroy Jenkins</p>
-                                    <p class="text-sm dark:text-gray-400">CTO of Company Co.</p>
+                                    <p class="text-lg font-semibold">Orang 3</p>
+                                    <p class="text-sm dark:text-gray-400">Masyarakat</p>
                                 </div>
                             </div>
                         </div>
@@ -264,8 +282,8 @@
                             <div class="flex items-center mt-4 space-x-4">
                                 <img src="https://source.unsplash.com/50x50/?portrait?4" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
                                 <div>
-                                    <p class="text-lg font-semibold">Leroy Jenkins</p>
-                                    <p class="text-sm dark:text-gray-400">CTO of Company Co.</p>
+                                    <p class="text-lg font-semibold">Orang 4</p>
+                                    <p class="text-sm dark:text-gray-400">Masyarakat</p>
                                 </div>
                             </div>
                         </div>
@@ -280,14 +298,14 @@
 
 </div>
 <div class="container2 my-12 py-12 mx-auto px-4 md:px-6 lg:px-12">
-    <div class="header-gallery flex justify-center pb-5 text-center"  data-aos="zoom-out-left">
+    <div class="header-gallery flex justify-center pb-5 text-center">
         <h1 class="text-4xl lg:text-6xl font-montserat font-extrabold text-black">Map Desa <span class="text-[#FFB600] ">Mapur</span></h1>
     </div>
     <!--Section: Design Block-->
     <section class="mb-8 text-gray-800">
 
       <div class="flex flex-wrap justify-center">
-        <div class="flex-initial shrink w-full xl:w-5/12 lg:w-6/12 z-50">
+        <div class="flex-initial shrink w-full xl:w-5/12 lg:w-6/12 z-10">
           <div class="lg:py-12 lg:pl-6 mb-6 lg:mb-0">
             <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127623.09339310449!2d105.92548817345282!3d-1.6209912214289228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e225ada88dc234d%3A0xc94fe38ef1294779!2sMapur%2C%20Kec.%20Riau%20Silip%2C%20Kabupaten%20Bangka%2C%20Kepulauan%20Bangka%20Belitung!5e0!3m2!1sid!2sid!4v1692244392212!5m2!1sid!2sid"
@@ -334,6 +352,13 @@
   });
   </script>
   <style>
+
+    .wisata{
+        background: url("./images/tuing.jpg");
+        background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
   .wrup3{
       background:  url("./images/trans.png");
       background-size: cover;
