@@ -21,7 +21,7 @@ class PageController extends Controller
         $url = "$baseUrl?page=$page";
 
         $response = Http::withHeaders([
-            'APP_KEY' => 'mapurjaya321'
+            'APP_KEY' => env('API_KEY')
         ])->get($url);
 
         if ($response->status() == 401) {
@@ -51,7 +51,7 @@ class PageController extends Controller
         $fileName = $file->getClientOriginalName();
 
         $response = Http::withHeaders([
-            'APP_KEY' => 'mapurjaya321'
+            'APP_KEY' => env('API_KEY')
         ])->attach('file', file_get_contents($file->path()), $fileName)->post($url, [
             'title' => $request->title,
             'body' => $request->body,
@@ -69,7 +69,7 @@ class PageController extends Controller
         $url = 'https://www.apimapor.diaryies.web.id/api/news/' . $slug;
 
         $response = Http::withHeaders([
-            'APP_KEY' => 'mapurjaya321'
+            'APP_KEY' => env('API_KEY')
         ])->get($url);
 
         $data = $response->json()['data'];
@@ -80,7 +80,7 @@ class PageController extends Controller
         $url = 'https://www.apimapor.diaryies.web.id/api/allnews';
 
         $response = Http::withHeaders([
-            'APP_KEY' => 'mapurjaya321'
+            'APP_KEY' => env('API_KEY')
         ])->get($url);
 
         $data = $response->json()['data'];
@@ -91,7 +91,7 @@ class PageController extends Controller
         $url = 'https://www.apimapor.diaryies.web.id/api/news/' . $slug;
 
         $response = Http::withHeaders([
-            'APP_KEY' => 'mapurjaya321'
+            'APP_KEY' => env('API_KEY')
         ])->get($url);
 
         $data = $response->json()['data'];
@@ -107,7 +107,7 @@ class PageController extends Controller
         $url = 'https://www.apimapor.diaryies.web.id/api/edit/' . $slug;
 
         $response = Http::withHeaders([
-            'APP_KEY' => 'mapurjaya321'
+            'APP_KEY' => env('API_KEY')
         ])->put($url, [
             'title' => $request->title,
             'body' => $request->body
@@ -126,7 +126,7 @@ class PageController extends Controller
         $url = 'https://www.apimapor.diaryies.web.id/api/news/' . $slug;
 
         $response = Http::withHeaders([
-            'APP_KEY' => 'mapurjaya321'
+            'APP_KEY' => env('API_KEY')
         ])->get($url);
 
         $data = $response->json()['data'];
@@ -144,7 +144,7 @@ class PageController extends Controller
         $fileName = $file->getClientOriginalName();
 
         $response = Http::withHeaders([
-            'APP_KEY' => 'mapurjaya321'
+            'APP_KEY' => env('API_KEY')
         ])->attach('file', file_get_contents($file->path()), $fileName)->post($url);
 
         if ($response->status() == 200) {
@@ -158,7 +158,7 @@ class PageController extends Controller
         $url = 'https://www.apimapor.diaryies.web.id/api/delete/' . $slug;
 
         $response = Http::withHeaders([
-            'APP_KEY' => 'mapurjaya321'
+            'APP_KEY' => env('API_KEY')
         ])->delete($url);
 
         if ($response->status() == 200) {

@@ -20,7 +20,7 @@ class AuthController extends Controller
 
         $url = 'https://www.apimapor.diaryies.web.id/api/login';
         $response = Http::withHeaders([
-            'APP_KEY' => 'mapurjaya321'
+            'APP_KEY' => env('API_KEY')
         ])->post($url, [
             'email' => $request->email,
             'password' => $request->password
