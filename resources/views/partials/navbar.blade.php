@@ -124,7 +124,7 @@ nav{
 <nav class="">
 
     <a class="text-3xl font-bold leading-none" href="/">
-        <img src="{{ asset('images/2932a13c4c479e615560bf7bf810a079-removebg-preview.png')}}" class="w-20" alt="">
+        <img src="{{ asset('images/logo.png')}}" class="w-20" alt="">
     </a>
     <div class="lg:hidden">
         <button class="navbar-burger flex items-center text-white p-3">

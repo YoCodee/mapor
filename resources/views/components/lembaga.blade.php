@@ -72,36 +72,6 @@
 </main>
     <main class="mt-10">
 
-      <div class="mb-4 md:mb-0 w-full mx-auto relative" id="gebong">
-        <div class="px-4 lg:px-0">
-          <h2 class="text-4xl font-semibold text-gray-800 leading-tight font-montserat">
-            Yayasan Gebong Memarong Mapur
-          </h2>
-      </div>
-
-      <div class="flex flex-col font-arimo ">
-
-        <div class="px-4 lg:px-0 mt-2 text-gray-700 text-lg leading-relaxed w-full ">
-          <p class="pb-6">Provinsi Kepulauan Bangka Belitung (Babel) menyimpan bergitu banyak cerita adat istiadat yang hingga kini masih dilestarikan. Bahkan kabarnya sudah berdiri lembaga adat yang disebut Lembaga Adat Mapur.
-
-            Lembaga Adat Mapur membagun sebuah kampung, yang dikenalkan sebagai Kampung Adat Gebong Memarong yang terletak di Dusun Air Abik, Desa Gunung Muda, Kecamatan Riau Silip, Kabupaten Bangka, Provinsi Kepulauan Bangka Belitung.
-
-            Diketahui, dalam ceritanya bahwa Memarong merupakan rumah khas masyarakat adat Mapur. Namun seiring berjalannya waktu rumah ini mulai sulit ditemukan seiring perkembangan zaman.</p>
-
-          <div class="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
-            "Awalnya hanya dibangun satu memarong itupun swadaya masyarakat. Karena kami ingin mengenalkan kepada masyarakat dan anak-anak muda beginilah rumah adat dengan beragam aktivitas orang tua kami dahulu, agar mereka tau dan tidak melupakan kearifan lokal ini," ucap pria yang kerap disapa Abok.
-          </div>
-
-          <p class="pb-6">Berkat komitmen PT Timah Tbk untuk mendukung pelestarian adat masyarakat adat Mapur, sehingga dalam membangun Kampung Adat Gebong Memarong ini lagi, PT Timah Tbk berkolaborasi dengan Lembaga Adat Mapur dan masyarakat di Desa Air Abik.
-
-            Alhasil, Tradisi dan Kampung Adat Gebong Memarong sudah berdiri dan dihadiri dan diresmikan oleh stakholder dan pejabar bupati yang di daerah setempat.</p>
-
-
-
-        </div>
-</main>
-    <main class="mt-10">
-
       <div class="mb-4 md:mb-0 w-full mx-auto relative" id="sanggar">
         <div class="px-4 lg:px-0">
           <h2 class="text-4xl font-semibold text-gray-800 leading-tight font-montserat">
