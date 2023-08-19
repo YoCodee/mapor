@@ -8,32 +8,29 @@
             <rect x="14" y="1" width="7" height="6"></rect>
             <rect x="14" y="11" width="7" height="12"></rect>
           </svg>
-          <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Company</span>
+          <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Memarong</span>
         </a>
         <div class="mt-6 lg:max-w-sm">
           <p class="text-sm text-gray-800">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+            Dusun Air Abik, Rinding Panjang, Belinyu, 
           </p>
-          <p class="mt-4 text-sm text-gray-800">
-            Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          <p class="text-sm text-gray-800">
+            Kabupaten Bangka, Kepulauan Bangka Belitung
           </p>
         </div>
       </div>
       <div class="space-y-2 text-sm">
         <p class="text-base font-bold tracking-wide text-gray-900">Contacts</p>
         <div class="flex">
-          <p class="mr-1 text-gray-800">Phone:</p>
-          <a href="tel:850-123-5021" aria-label="Our phone" title="Our phone" class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">850-123-5021</a>
+          <p class="mr-1 text-gray-800">Phone:</p>+62 852-1385-5053
         </div>
         <div class="flex">
           <p class="mr-1 text-gray-800">Email:</p>
-          <a href="mailto:info@lorem.mail" aria-label="Our email" title="Our email" class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">info@lorem.mail</a>
+          <a href="mailto:info@lorem.mail" aria-label="Our email" title="Our email" class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">yayasangebongmemarong@gmail.com</a>
         </div>
         <div class="flex">
           <p class="mr-1 text-gray-800">Address:</p>
-          <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer" aria-label="Our address" title="Our address" class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">
-            312 Lovely Street, NY
-          </a>
+            Dusun Air Abik, Rinding Panjang, Belinyu, Kabupaten Bangka, Kepulauan Bangka Belitung
         </div>
       </div>
       <div>
@@ -63,24 +60,13 @@
           </a>
         </div>
         <p class="mt-4 text-sm text-gray-900">
-          Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken spare ribs salami.
+          Selamat Datang di Website Memarong
         </p>
       </div>
     </div>
     <div class="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
       <p class="text-sm text-gray-900">
-        © Copyright 2020 Lorem Inc. All rights reserved.
+        © Copyright 2023 All rights reserved.
       </p>
-      <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
-        <li>
-          <a href="/" class="text-sm text-white transition-colors duration-300 hover:text-deep-purple-accent-400">F.A.Q</a>
-        </li>
-        <li>
-          <a href="/" class="text-sm text-white transition-colors duration-300 hover:text-deep-purple-accent-400">Privacy Policy</a>
-        </li>
-        <li>
-          <a href="/" class="text-sm text-white transition-colors duration-300 hover:text-deep-purple-accent-400">Terms &amp; Conditions</a>
-        </li>
-      </ul>
     </div>
   </div>

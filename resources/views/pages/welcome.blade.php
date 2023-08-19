@@ -11,7 +11,7 @@
             <img src="{{asset('images/fotoutama.jpg')}}" class="img absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"  alt="...">
 <div class="smk1 absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
 <h1 class=" text-[39px] lg:text-7xl m-auto leading-9 text-center items-center justify-center font-bold text-white mb-2">Desa Gunung <span class="text-[#fedc56]">Muda</span> </h1>
-<p class="text-xs lg:text-base">Dusun Air Abik,Rinding Panjang,Belinyu.Kabupaten Bangka Kepulauang Bangka Belitung</p>
+<p class="text-xs lg:text-base">Dusun Air Abik, Rinding Panjang, Belinyu, Kabupaten Bangka, Kepulauan Bangka Belitung</p>
 </div>
         </div>
         <!-- Item 2 -->
