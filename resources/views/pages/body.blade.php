@@ -40,23 +40,25 @@
     <div class="wrapper1 flex flex-wrap">
       <div class="container w-[vmin] h-[28vmin] flex flex-col justify-around px-[1em] relative text-[16px] rounded-lg border-b-8 border-[rgb(254,220,86)]">
         <i class="fas fa-user"></i>
-        <span class="num" data-val="2492">000</span>
-        <span class="text">Jumlah Penduduk</span>
+        <span class="num" data-val="633">000</span>
+        <span class="text"> Penduduk</span>
       </div>
       <div class="container w-[28vmin] h-[28vmin] flex flex-col justify-around px-[1em] relative text-[16px] rounded-lg border-b-8 border-[#fedc56]">
         <i class="fas fa-smile-beam"></i>
-        <span class="num" data-val="745">000</span>
-        <span class="text">Jumlah Keluarga</span>
+        <span class="num" data-val="745">211</span>
+        <span class="text">Kepala Keluarga</span>
       </div>
-      <div class="container w-[28vmin] h-[28vmin] flex flex-col justify-around px-[1em] relative text-[16px] rounded-lg border-b-8 border-[#fedc56]">
+      <div class="container w-[28vmin]  h-[28vmin] flex flex-col justify-around px-[1em] relative text-[16px] rounded-lg border-b-8 border-[#fedc56]">
         <i class="fas fa-list"></i>
-        <span class="num" data-val="343">000</span>
-        <span class="text">Jumlah Remaja</span>
+        <span class="num" data-val="208">000</span>
+        <span class="text pb-3.5 ">Kepercayaan </span>
+        <span class="text  ">Mapor Dangkel </span>
+
       </div>
       <div class="container w-[28vmin] h-[28vmin] flex flex-col justify-around px-[1em] relative text-[16px] rounded-lg border-b-8 border-[#fedc56]">
         <i class="fas fa-star"></i>
-        <span class="num" data-val="280">000</span>
-        <span class="text">Five Stars</span>
+        <span class="num" data-val="445">000</span>
+        <span class="text">Umat Beragama</span>
       </div>
     </div>
 
@@ -209,6 +211,7 @@
                                   </div>
 							</p>
 						</div>
+
 					</div>
 
 					<div class="flex my-4 justify-center items-center">
@@ -222,6 +225,7 @@
 							class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline h-16 w-16 inline-block bg-indigo-600 rounded-full mx-2"
 							:class="{'h-12 w-12 opacity-25 bg-indigo-300 text-gray-600': testimonialActive != 2, 'h-16 w-16 opacity-100 bg-indigo-600 text-white': testimonialActive == 2 }"
 						>PW</button>
+
 					</div>
 
 					<div class="flex justify-center px-6 pt-2 pb-6 md:py-6">
@@ -234,6 +238,108 @@
 							<h2 class="text-sm md:text-base font-bold text-gray-700 leading-tight">Paket Wisata</h2>
 
 						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+    <div class="px-[7%] antialiased">
+
+        <div class="my-10 md:my-12 containers mx-auto flex flex-col md:flex-row shadow-sm overflow-hidden" x-data="{ testimonialActive: 2 }" x-cloak>
+			<div class="relative w-full py-2 md:py-24 md:w-1/2 flex flex-col item-center justify-center wisata1">
+
+
+				<div class="relative text-2xl md:text-5xl py-24 px-6 md:py-6 md:px-1 text-center  md:mx-auto text-indigo-100 font-semibold leading-tight tracking-tight mb-0 z-20 opacity-60">
+					<p class="font-montserat">Wisata Gebong Memarong</p>
+
+				</div>
+
+				<div class="absolute right-0 bottom-0 mr-4 mb-4 hidden md:block">
+					<button
+						class="rounded-l-full border-r bg-gray-100 text-gray-500 focus:outline-none hover:text-indigo-500 font-bold w-12 h-10"
+						x-on:click="testimonialActive = testimonialActive === 1 ? 3 : testimonialActive - 1">
+						&#8592;
+					</button><button
+						class="rounded-r-full bg-gray-100 text-gray-500 focus:outline-none hover:text-indigo-500 font-bold w-12 h-10"
+						x-on:click="testimonialActive = testimonialActive >= 3 ? 1 : testimonialActive + 1">
+						&#8594;
+					  </button>
+				</div>
+			</div>
+
+			<div class="bg-gray-100 md:w-1/2">
+				<div class="flex flex-col h-full relative">
+
+					<div class="absolute top-0 left-0 mt-3 ml-4 md:mt-5 md:ml-12">
+						<svg xmlns="http://www.w3.org/2000/svg" class="text-indigo-200 fill-current w-12 h-12 md:w-16 md:h-16" viewBox="0 0 24 24"><path d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35.208-.086.39-.16.539-.222.302-.125.474-.197.474-.197L9.758 4.03c0 0-.218.052-.597.144C8.97 4.222 8.737 4.278 8.472 4.345c-.271.05-.56.187-.882.312C7.272 4.799 6.904 4.895 6.562 5.123c-.344.218-.741.4-1.091.692C5.132 6.116 4.723 6.377 4.421 6.76c-.33.358-.656.734-.909 1.162C3.219 8.33 3.02 8.778 2.81 9.221c-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539.017.109.025.168.025.168l.026-.006C2.535 17.474 4.338 19 6.5 19c2.485 0 4.5-2.015 4.5-4.5S8.985 10 6.5 10zM17.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35.208-.086.39-.16.539-.222.302-.125.474-.197.474-.197L20.758 4.03c0 0-.218.052-.597.144-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162C14.219 8.33 14.02 8.778 13.81 9.221c-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539.017.109.025.168.025.168l.026-.006C13.535 17.474 15.338 19 17.5 19c2.485 0 4.5-2.015 4.5-4.5S19.985 10 17.5 10z"/></svg>
+					</div>
+
+					<div class="h-full relative z-10">
+						<div x-show.immediate="testimonialActive === 1">
+							<p class="text-gray-600 serif font-normal  italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl" x-show.transition="testimonialActive == 1">
+								Gebong Memarong
+							</p>
+						</div>
+
+						<div x-show.immediate="testimonialActive === 2">
+							<p class="text-gray-600 serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl" x-show.transition="testimonialActive == 2">
+                                <div class=" md:max-w-2xl mx-auto px-5">
+                                    <table class=" w-full mx-auto bg-white shadow-md rounded-lg overflow-hidden">
+                                      <thead class="bg-gray-200 text-gray-700">
+                                        <tr>
+                                          <th class="px-6 py-4 text-left"></th>
+                                          <th class="px-2 py-4 text-left">Harga Tiket Masuk</th>
+                                          <th class="px-2 py-4 text-left"></th>
+                                        </tr>
+                                      </thead>
+                                      <tbody class="divide-y divide-gray-300">
+                                        <tr>
+                                          <td class="px-8 py-4">Paket Wisata</td>
+
+                                          <td class="px-6 py-4">Rp5.000</td>
+                                        </tr>
+                                        <tr>
+                                          <td class="px-8 py-4">Paket Kuliner</td>
+
+                                          <td class="px-6 py-4">Rp15.000</td>
+
+                                        </tr>
+
+                                        <!-- Add more rows as needed -->
+                                      </tbody>
+                                    </table>
+                                  </div>
+							</p>
+						</div>
+
+					</div>
+
+					<div class="flex my-4 justify-center items-center">
+						<button
+							@click.prevent="testimonialActive = 1"
+							class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline inline-block rounded-full mx-2"
+							:class="{'h-12 w-12 opacity-25 bg-indigo-300 text-gray-600': testimonialActive != 1, 'h-16 w-16 opacity-100 bg-indigo-600 text-white': testimonialActive == 1 }"
+						>JW</button>
+						<button
+							@click.prevent="testimonialActive = 2"
+							class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline h-16 w-16 inline-block bg-indigo-600 rounded-full mx-2"
+							:class="{'h-12 w-12 opacity-25 bg-indigo-300 text-gray-600': testimonialActive != 2, 'h-16 w-16 opacity-100 bg-indigo-600 text-white': testimonialActive == 2 }"
+						>PW</button>
+
+					</div>
+
+					<div class="flex justify-center px-6 pt-2 pb-6 md:py-6">
+						<div class="text-center" x-show="testimonialActive == 1">
+							<h2 class="text-sm md:text-base font-bold text-gray-700 leading-tight">Jadwal Berkunjung</h2>
+
+						</div>
+
+						<div class="text-center" x-show="testimonialActive == 2">
+							<h2 class="text-sm md:text-base font-bold text-gray-700 leading-tight">Paket Wisata</h2>
+
+						</div>
+
 					</div>
 				</div>
 			</div>
@@ -243,14 +349,19 @@
     <div class="container2 px-6 py-12 mx-auto">
         <div class="grid items-center gap-4 xl:grid-cols-5">
             <div class="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
-                <h2 class="text-4xl font-bold">Mengenal Lebih Dalam tentang Desa Mapur</h2>
+                <h2 class="text-4xl font-bold">Mengenal Lebih Dalam tentang Sejarah Desa Mapur</h2>
                 <p class="dark:text-gray-400">Data-data ini diambil dari data yang sudah beredar di Internet dan Warga Sekitar</p>
             </div>
             <div class="p-0 lg:p-6 xl:col-span-3">
                 <div class="grid gap-4 md:grid-cols-2">
                     <div class="grid content-center gap-4">
                         <div class="p-6 rounded shadow-md dark:bg-gray-700">
-                            <p>Sejak masuknya perusahaan sawit yang mengambil alih lahan bahkan hutan adat mereka, akhirnya ikatan kuat antara suku Mapur dengan alam mulai memudar karena kehidupan mereka yang berubah seiring berjalannya waktu. Ruang hidup suku Mapur sebagian sudah rusak dan terancam oleh aktivitas perkebunan sawit skala besar dan penambangan timah.</p>
+                            <p>Sangat sulit menemukan data awal yang menyebut keberadaan orang-orang Mapur, justru
+                                kita akan menemukan penyebutan ketokohan dan wilayah lain. Dalam Carita Bangka yang
+                                ditulis pada tahun 1873, cerita yang berkembang di kalangan Panji, Belinyu dan Sekak
+                                menyebutkan sebuah Kapal Bugis yang terbuat dari kayu Bangka dan dipimpin Arung sedang
+                                berlayar kembali menuju Bugis, namun kandas dan seluruh penumpangnya menjadi penghuni
+                                Pulau Bangka.</p>
                             <div class="flex items-center mt-4 space-x-4">
                                 <img src="https://source.unsplash.com/50x50/?portrait?1" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
                                 <div>
@@ -260,7 +371,9 @@
                             </div>
                         </div>
                         <div class="p-6 rounded shadow-md dark:bg-gray-700">
-                            <p>Keresahan masyarakat desa Mapur melonjak akibat aktivitas perusahaan perkebunan sawit PT Alam Lestari yang telah meresahkan mereka. Masyarakat desa Mapur akhirnya melakukan pertemuan dengan pihak perusahaan PT Alam Lestari yang dilakukan di Balai Desa Mapur.</p>
+                            <p>Mapur merupakan nama sungai yang menjadi dasar perbatasan antara Distrik Belinyu dan
+                                Distrik Sungailiat. Peta Inggris (1812-1816) sudah mengidentifikasi keberadaan kampung Mapur
+                                di tepi Sungai Mapur dengan tulisan Mapoor dan terdapat tambang timah (Mines of Mapoor</p>
                             <div class="flex items-center mt-4 space-x-4">
                                 <img src="https://source.unsplash.com/50x50/?portrait?2" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
                                 <div>
@@ -272,7 +385,11 @@
                     </div>
                     <div class="grid content-center gap-4">
                         <div class="p-6 rounded shadow-md dark:bg-gray-700">
-                            <p>Adat istiadat kerap diidentikkan dengan kearifan lokal masyarakat atau local wisdom yang tumbuh dari kebiasaan dan tradisi masyarakatnya. Untuk melestarikan kebudayaan dan tradisi suku mapur yang menjadi suku tertua di Pulau Bangka PT Timah Tbk bersama Lembaga Adat Mapur melakukan gerakan untuk melindungi, melestarikan, dan mencintai kebudayaan Indonesia yang ada di Bangka Belitung.</p>
+                            <p>Air Abik merupakan pemukiman (Gebong) orang Mapor yang berada di salah satu hulu
+                                Sungai Mapur, di kaki Bukit Sumedang dan jalan lama yang menghubungkan Pangkal Mapur –
+                                Belinyu. Pertama kali muncul dalam peta tahun 1856 dengan tulisan A. Abik, kemudian muncul
+                                pada peta tahun 1884 (Ajer Abit), 1885 (Ajer Abit), 1898 (Ajer Abik), 1925 (Airabit), dan 1930
+                                (Airabik).</p>
                             <div class="flex items-center mt-4 space-x-4">
                                 <img src="https://source.unsplash.com/50x50/?portrait?3" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
                                 <div>
@@ -282,7 +399,11 @@
                             </div>
                         </div>
                         <div class="p-6 rounded shadow-md dark:bg-gray-700">
-                            <p>Saat ini, wilayah hutan adat Suku Mapur tidak ada yang diakui oleh pemerintah. Wilayah hutan adat suku Mapur berubah menjadi HP (Hutan Produksi), APL (Area Penggunaan Lain), serta HL (Hutan Lindung) di bagian pesisir atau hutan mangrove. Setelah reformasi 1998 atau setelah Provinsi Kepulauan Bangka Belitung terbentuk tepatnya pada tahun 2000, akhirnya pemerintah mengeluarkan izin usaha yang memanfaatkan kawasan adat Suku Mapur</p>
+                            <p>Orang Mapur terdiri 2 golongan, yakni masyarakat yang sudah beralih menjadi umat
+                                beragama (Orang Lah) dan masih mempertahankan kepercayaan Mapur Dangkel (Orang Lom).
+                                Orang Mapur yang sudah beragama menyebar baik di Kampung atau Kota, menjalin pernikahan
+                                dengan orang Non Mapur dan bekerja di berbagai sektor. Bahkan menjadi orang besar atau
+                                terpandang.</p>
                             <div class="flex items-center mt-4 space-x-4">
                                 <img src="https://source.unsplash.com/50x50/?portrait?4" alt="" class="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500">
                                 <div>
@@ -358,6 +479,12 @@
 
     .wisata{
         background: url("./images/tuing.jpg");
+        background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .wisata1{
+        background: url("./images/gebong.jpg");
         background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
