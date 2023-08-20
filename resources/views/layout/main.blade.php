@@ -15,7 +15,7 @@
   />
   <link rel="stylesheet" href="aos-by-red.css">
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Mapor</title>
+    <title>Memarong.id</title>
 </head>
 <body class="">
     @yield('content')

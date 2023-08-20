@@ -202,7 +202,7 @@ nav{
                     <a class="block p-4 text-lg font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="/warisan">Warisan</a>
                 </li>
                 <li class="mb-1">
-                    <a class="block p-4 text-lg font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="/#galeri">galeri
+                    <a class="block p-4 text-lg font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded" href="/#galeri">Galeri
                     </a>
                 </li>
                 <li class="mb-1">
