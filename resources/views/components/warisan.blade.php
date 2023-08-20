@@ -86,15 +86,7 @@
         <h2 class="text-4xl font-semibold text-gray-800 leading-tight font-montserat">
           Manuskrip
         </h2>
-        <a
-          href="#"
-          class="py-2 text-green-700 inline-flex items-center justify-center mb-2"
-        >
-
-        </a>
       </div>
-
-
     </div>
 
     <div class="flex flex-col lg:flex-row lg:space-x-12">
