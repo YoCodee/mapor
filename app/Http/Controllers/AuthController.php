@@ -18,7 +18,7 @@ class AuthController extends Controller
             'password' => 'required|min:8'
         ]);
 
-        $url = 'https://www.apimapor.diaryies.web.id/api/login';
+        $url = 'https://www.api.memarong.id/api/login';
         $response = Http::withHeaders([
             'APP_KEY' => env('API_KEY')
         ])->post($url, [

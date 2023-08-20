@@ -11,13 +11,10 @@ class PageController extends Controller
         return view('pages.welcome');
     }
 
-
-
-
     public function news(Request $request){
         $page = $request->query('page', 1);
 
-        $baseUrl = 'https://apimapor.diaryies.web.id/api/news';
+        $baseUrl = 'https://api.memarong.id/api/news';
         $url = "$baseUrl?page=$page";
 
         $response = Http::withHeaders([
@@ -45,7 +42,7 @@ class PageController extends Controller
             'body' => 'required'
         ]);
 
-        $url = 'https://www.apimapor.diaryies.web.id/api/create';
+        $url = 'https://www.api.memarong.id/api/create';
 
         $file = $request->file('file');
         $fileName = $file->getClientOriginalName();
@@ -66,7 +63,7 @@ class PageController extends Controller
     }
 
     public function detailInfo($slug){
-        $url = 'https://www.apimapor.diaryies.web.id/api/news/' . $slug;
+        $url = 'https://www.api.memarong.id/api/news/' . $slug;
 
         $response = Http::withHeaders([
             'APP_KEY' => env('API_KEY')
@@ -77,7 +74,7 @@ class PageController extends Controller
     }
 
     public function dataNews(){
-        $url = 'https://www.apimapor.diaryies.web.id/api/allnews';
+        $url = 'https://www.api.memarong.id/api/allnews';
 
         $response = Http::withHeaders([
             'APP_KEY' => env('API_KEY')
@@ -88,7 +85,7 @@ class PageController extends Controller
     }
 
     public function editNews($slug){
-        $url = 'https://www.apimapor.diaryies.web.id/api/news/' . $slug;
+        $url = 'https://www.api.memarong.id/api/news/' . $slug;
 
         $response = Http::withHeaders([
             'APP_KEY' => env('API_KEY')
@@ -104,7 +101,7 @@ class PageController extends Controller
             'body' => 'required'
         ]);
 
-        $url = 'https://www.apimapor.diaryies.web.id/api/edit/' . $slug;
+        $url = 'https://www.api.memarong.id/api/edit/' . $slug;
 
         $response = Http::withHeaders([
             'APP_KEY' => env('API_KEY')
@@ -123,7 +120,7 @@ class PageController extends Controller
     }
 
     public function editFileNews($slug){
-        $url = 'https://www.apimapor.diaryies.web.id/api/news/' . $slug;
+        $url = 'https://www.api.memarong.id/api/news/' . $slug;
 
         $response = Http::withHeaders([
             'APP_KEY' => env('API_KEY')
@@ -138,7 +135,7 @@ class PageController extends Controller
             'file' => 'required|mimes:png,jpg,pdf,word,doc,jpeg,docx,gif|max:10000',
         ]);
 
-        $url = 'https://www.apimapor.diaryies.web.id/api/editfile/' . $slug;
+        $url = 'https://www.api.memarong.id/api/editfile/' . $slug;
 
         $file = $request->file('file');
         $fileName = $file->getClientOriginalName();
@@ -155,7 +152,7 @@ class PageController extends Controller
     }
 
     public function deleteNews($slug){
-        $url = 'https://www.apimapor.diaryies.web.id/api/delete/' . $slug;
+        $url = 'https://www.api.memarong.id/api/delete/' . $slug;
 
         $response = Http::withHeaders([
             'APP_KEY' => env('API_KEY')
