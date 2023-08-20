@@ -10,14 +10,25 @@
       <div class="flex flex-col ml-0  md:ml-8 p-0 ">
         <h5
           class="mb-4 text-center font-extrabold text-black text-5xl font-montserat" data-aos="fade-left">
-          SELAMAT DATANG DI DESA MAPUR
+          SELAMAT DATANG DI DESA GUNUNG MUDA
           <hr>
         </h5>
         <p class=" mb-4 text-base lg:text-lg text-neutral-600 font-arimo text-center" data-aos="fade-left">
-         Suku Mapur merupakan salah satu suku di Provinsi Sumatra Selatan yang tinggal di Desa Air Abik, Pejem dan Tuing di Kecamatan Belinyu, Kabupaten Bangka Belitung. Dari tiga desa tersebut, persebaran Orang Suku Mapur terbanyak ada di Dusun Air Abik.[1] Suku Mapur dibedakan berdasarkan lokasi tempat tinggalnya.[2] Orang Mapur yang hidup di pedalaman, atau di hutan-hutan, dan yang tinggal di pesisir pantai. Orang Mapur yang tinggal di pesisir pantai lebih maju peradabannya daripada yang tinggal di pedalaman. Hal ini karena mereka lebih banyak menyerap kebudayaan dan pengetahuan baru.
+          Bangka dan Belitung adalah bagian dari Tanah Melayu, berbahasa Melayu, berbudaya
+          Melayu dan sebagian besar beragama Islam sehingga mempengaruhi nilai-nilai dalam kehidupan
+          bermasyarakat. Prasasti Kotakapur bukti tertua hukum adat tertulis dari Kerajaam Sriwijaya.
+          Kemudian ada Undang-Undang Sindang Mardika dari Kesultanan Palembang.
           <br>
           <br>
-         Suku Mapur diduga merupakan suku tertua yang tinggal di Pulau Bangka. Soal kapan Suku Mapur dan dari mana asalnya masih spekulatif. Diduga mereka pertama kali mendiami Air Abik yang lokasinya di hulu Sungai Mapur.[1] Menurut legenda, nenek moyang Orang Mapur berasal dari Majapahit. Konon, ada seorang bangsawan Majapahit di Mojokerto, Jawa Timur, yang menolak menjadi Islam. Sekitar abad ke-16 penolakan itu ditindaklanjuti dengan melarikan diri lewat laut dan terdampar di Tanjung Tuing.
+          Sebagian besar masyarakat telah berkembang mengikuti
+          arus modernitas, hukum-hukum adat mulai diabaikan digantikan dengan hukum formal yang
+          diakui pemerintah, peran pemimpin tradisional jauh berkurang, Balai Adat sudah digantikan
+          Pengadilan dan Kelekak menjadi perkebunan sawit atau tambang timah. Namun kita masih
+          memperingati dan merayakan hari-hari besar dengan tradisi yang telah turun temurun. Hanya sebagian kecil yang bertahan dengan keasliannya, memegang
+          teguh kepercayaan Religi, menjaga hubungan dengan lingkungan sekitarnya dan menerapkan
+          sangsi adat. Keberadaan Hutan Adat dalam bentuk Kelekak, Rimbe, Hutan Lindung, Hutan Desa
+          dan Paya bukti masih adanya kepemilikan secara komunal oleh masyarakat Adat. Salah satunya
+          Masyarakat Adat Mapur.
         </p>
 
 

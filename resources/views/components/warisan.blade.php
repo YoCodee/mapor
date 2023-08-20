@@ -34,9 +34,10 @@
         <a href="#ritus" class="hover:text-[#fedc56]">Ritus</a>
         <a href="#pengetahuantradisional" class="hover:text-[#fedc56]">Pengetahuan tradisional</a>
         <a href="#teknologitradisional" class="hover:text-[#fedc56]">Teknologi tradisional</a>
+        <a href="#sistempemerintahan" class="hover:text-[#fedc56]">Sistem pemerintahan</a>
         <a href="#seni" class="hover:text-[#fedc56]">Seni</a>
         <a href="#bahasa" class="hover:text-[#fedc56]">Bahasa</a>
-        <a href="#permainanrakyat" class="hover:text-[#fedc56]">Permainan Rakyat</a>
+        <a href="#permainanrakyat" class="hover:text-[#fedc56]">Permainan rakyat</a>
         <a href="#olahragatradisional" class="hover:text-[#fedc56]">Olahraga tradisional</a>
         <a href="#cagarbudaya" class="hover:text-[#fedc56]">Cagar Budaya</a>
 
@@ -117,17 +118,67 @@
     <div class="flex flex-col lg:flex-row lg:space-x-12">
 
       <div class="px-4 lg:px-0 mt-2 text-gray-700 text-lg leading-relaxed w-full font-arimo">
-        <p class="pb-6">Adat istiadat merupakan perajalanan yang tak terpisahkan dari budaya Indonesia. Untuk itu adat istiadat harus terus dilestarikan sehingga tak tergerus dan hilang dalam perkembangan zaman. Untuk melestarikan kebudayaan dan tradisi suku mapur yang menjadi suku tertua di Pulau Bangka PT Timah Tbk bersama Lembaga Adat Mapur melakukan gerakan untuk melindungi, melestarikan, dan mencintai kebudayaan Indonesia yang ada di Bangka Belitung. </p>
+        <p class="pb-6">Hukum Adat bersumber Kepercayaan terhadap Tuhan Yang Maha Esa yakni ajaran
+          Mapur Dangkel yang mengenal Tuhan dalam nama Yang Kuase, Maha Kuase dan Penguasa
+          Jagat Raye. Tuhan tetap di atas kita, tetapi bersemayam dalam hati.
+          Ajaran Kepercayaan Mapur Dangkel meyakini bahwa manusia pertama sebagai Pemberi
+          Penyerah (Ajaran) menurunkan dan memberikan Penyerah kepada Akik Antak, Akik
+          Bedengung, dan Nik Suang Suer. Ketiganya dipercaya menghilang (pulang ke asal), karena
+          orang tersebut dianggap suci.
+          </p>
 
-        <p class="pb-6">Gerakan ini diawali dengan Ngunjem Tiang Kampung Adat Gebong Memarong. Memarong merupakan sebutan bagi rumah adat orang lom, yang merupakan salah satu program pelestarian budaya Mapur yang dilakukan oleh PT Timah Tbk di Dusun Air Abik, Desa Gunung Muda, Kecamatan Belinyu, Kabupaten Bangka, Kamis (19/5/2022).
+        <p class="pb-6">
+          Pada masyarakat Mapur, Akik Antak memegang peranan penting dalam menghadirkan
+          adat sebagai sistem kepercayaan dan sistem nilai. Akik Antak dipercaya sebagai orang yang
+          membentuk adat dan menurunkan aturan-aturan adat kepada masyarakat secara turun temurun
+          sampai sekarang. Aturan-aturan adat, baik yang bersifat sakral maupun non-sakral, menjadi
+          acuan dasar dalam menjalankan hidup bermasyarakat, serta memperlakukan alam dan makhluk
+          lainnya.3
+          Pepatah lokal menyatakan “Guru kire, akal pemula, ada di hati kite”, yang berarti
+          bahwa setiap niat dan perbuatan kembali pada bagaimana unsur rohani memberi makna dan nilai.
+          Sebelum manusia mati, ia ditugaskan untuk meniatkan dan melakukan perbuatan baik.4
+        </p>
+        <p class="pb-6">
+          Pepatah lokal menyatakan “Guru kire, akal pemula, ada di hati kite”, yang berarti
+          bahwa setiap niat dan perbuatan kembali pada bagaimana unsur rohani memberi makna dan nilai.
+          Sebelum manusia mati, ia ditugaskan untuk meniatkan dan melakukan perbuatan baik.4
         </p>
 
         <div class="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
-            Ngunjem Tiang Kampung Adat Gebong Memarong ini turut dihadiri Direktur SDM PT Timah Tbk, Yennita yang menyatakan PT Timah Tbk akan terlibat dalam pelestarian adat dan budaya yang ada di Bangka Belitung.
+          Tahapan hidup manusia :
 
+          3
+          Ajaran Kepercayaan Terhadap Tuhan Yang Maha Esa Mapur Dangkel, Direktorat Kepercayaan Terhadap Tuhan
+          Yang Maha Esa dan Masyarakat Adat, Dirjen Kebudayaan Kemendikbudristek, 2022, hal. 10.
+          4
+          Idem, hal.11.
+          1. Kandung Kelebu
+          2. Laher
+          3. Idup de Denie (Bejumpong/Sunat, Kawen, Berume, Muet Uma)
+          4. Matic
+          5. Ditanem (dikubur)
+          6. Nambek (ditimbang amal perbuatan)
+          7. Serge/Nerake
         </div>
-
-
+        <p class="pb-6">
+          Ada 3 bentuk ibadah doa dalam ajaran Kepercayaan Mapur Dangkel, yakni Nek Nyampai
+          Ke Kenek (menyampaikan permohonan kepada Tuhan). Nratap dan Tangkel. Adapun bentuk
+          ritual terdiri dari Nuju Jerami, Naber (Naber Basak/Penyakit, Naber Uma, Naber Ume, Naber
+          Kemai/Kematian, Naber Alat), Ritual Siklus Hidup (Berume, Menimbong, Matic). Ritual Matic
+          ada 3 rangkaian yakni Pemulasaran Jenazah, Minta Tanah Setapak Miring, Ditanem dan
+          Nambek.
+        </p>
+        <div class="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+          Pantang Lareng terdiri dari :
+          1. Panteng Lareng Sesama Manusia ( 25 pantangan)
+          2. Panteng Lareng di Kampung ( 16 pantangan)
+          3. Panteng Lareng terkait Binatang ( 6 pantangan)
+          4. Panteng Lareng terkait dengan alam
+          a. Panteng Lareng di Laut ( 13 pantangan)
+          b. Panteng Lareng di hutan ( 8 pantangan)
+          c. Panteng Lareng di sungai ( 16 pantangan)
+          d. Panteng Lareng di Ladang ( 12 pantangan)
+        </div>
       </div>
 </main>
 <main class="mt-10">
@@ -193,28 +244,126 @@
       <div class="flex flex-col lg:flex-row lg:space-x-12">
 
         <div class="px-4 lg:px-0 mt-2 text-gray-700 text-lg leading-relaxed w-full font-arimo">
-          <p class="pb-6">Teknologi tradisional di Mapur mengacu pada berbagai alat, metode, dan praktik yang telah diwariskan dari generasi ke generasi dalam masyarakat tersebut. Teknologi ini biasanya dikembangkan secara lokal untuk memenuhi kebutuhan sehari-hari, seperti pertanian, perikanan, kerajinan, dan aktivitas lainnya. Beberapa contoh teknologi tradisional yang mungkin ada di Mapur meliputi:</p>
+          <p class="pb-6">Aset komunal adat Mapur terdiri dari:
+            </p>
           <div class="ml-3">
-          <p class="pb-6">1.Alat Pertanian Tradisional: Alat-alat seperti cangkul, sabit, dan alat tanam yang telah digunakan dalam pertanian generasi demi generasi. Teknologi ini dirancang untuk membantu dalam proses bercocok tanam, penanaman, dan panen tanaman.
+          <p class="pb-6">1. Hutan Adat
           </p>
           <p class="pb-6">
-              2.Jaring dan Perangkap Ikan: Teknik dan alat tangkap ikan tradisional, seperti jaring, bubu, atau pukat, yang digunakan untuk menangkap ikan dan sumber daya laut lainnya. Teknologi ini biasanya disesuaikan dengan kondisi perairan lokal.
+            2. Hutan Larangan (Bukit Tabun, Kasak Tadai, Gunung Cundong, Gunung Pelawan )
           </p>
           <p class="pb-6">
-              3.Alat-alat Kerajinan: Teknologi dalam pembuatan alat-alat kerajinan seperti anyaman, ukiran kayu, atau pembuatan kain tradisional. Penggunaan alat dan teknik ini dapat menghasilkan produk-produk yang memiliki ciri khas budaya Mapur.
+            3. Pekuburan (Mikang, Bukit Ijer)
           </p>
           <p class="pb-6">
-              4.Bangunan Tradisional: Pengetahuan tentang teknik pembangunan rumah tradisional yang sesuai dengan kondisi iklim dan lingkungan lokal. Ini bisa termasuk bahan bangunan, desain, dan cara memanfaatkan sumber daya alam.
+            4. Kampung Adat Gebong Memarong
           </p>
           <p class="pb-6">
-              5.Peralatan Rumah Tangga: Penggunaan alat-alat tradisional dalam kehidupan sehari-hari, seperti peralatan masak, alat pengolahan makanan, dan peralatan rumah tangga lainnya.
+            5. Merk dagang “Memarong”
 
           </p>
           <p class="pb-6">
-              6.Teknologi yang digunakan dalam kegiatan pertanian laut, seperti pembuatan tambak, pengumpulan kerang, atau budidaya laut.
+            6. Rimpic Usang
+          </p>
+          <p class="pb-6">
+            7. Peralatan Ritual Nuju Jeramic
+          </p>
+          <p class="pb-6">
+            8. Gong Usang
+          </p>
       </div>
         </div>
 </main>
+
+<main class="mt-10">
+
+  <div class="mb-4 md:mb-0 w-full mx-auto relative" id="sistempemerintahan">
+      <div class="px-4 lg:px-0">
+        <h2 class="text-4xl font-semibold text-gray-800 leading-tight font-montserat" >
+         Sistem Pemerintahan Adat
+        </h2>
+    </div>
+
+    <div class="flex flex-col lg:flex-row lg:space-x-12">
+
+      <div class="px-4 lg:px-0 mt-2 text-gray-700 text-lg leading-relaxed w-full font-arimo">
+        <p class="pb-6">Kepengurusan adat secara turun temurun. Berikut nama-nama ketua Adat di Air Abik
+          yang diketahui masyarakat Adat Mapur:
+          </p>
+        <div class="ml-3">
+        <p class="pb-6">1. Atok Kadir
+        </p>
+        <p class="pb-6">
+          2. Atok Mak Belang
+        </p>
+        <p class="pb-6">
+          3. Atok Sampu
+        </p>
+        <p class="pb-6">
+          4. Atok Bujang Kuak
+        </p>
+        <p class="pb-6">
+          5. Atok Sikat
+
+        </p>
+        <p class="pb-6">
+          6. Atok Sukri (2018)
+        </p>
+        <p class="pb-6">
+          7. Atok Gedoi (2018-kini)
+        </p>
+    </div>
+    <div class="px-4 lg:px-0 mt-2 text-gray-700 text-lg leading-relaxed w-full font-arimo">
+      <p class="pb-6">Berikut nama-nama ketua Adat di Pejem yang diketahui masyarakat Adat Mapur:
+        </p>
+      <div class="ml-3">
+      <p class="pb-6">1. Atok Sepin (1960-an)
+      </p>
+      <p class="pb-6">
+        2. Atok Lintang (1970-an)
+      </p>
+      <p class="pb-6">
+        3. Atok Aban (1980-an)
+      </p>
+      <p class="pb-6">
+        4. Atok Toha (1995-2017)
+      </p>
+      <p class="pb-6">
+        5. Atok Sukar (2017-kini)
+      </p>
+      <p class="pb-6">
+        Pada tahun 2018 terjadi perubahan kepengurusan adat di Air Abik yakni Ketua Adat
+        Gedoi, Penghulu Alfian, Pemimpin Ritual Sukri, Saksi Adat 1 Kaca dan Saksi Adat 2 Aban.
+        Kepengurusan adat ditetapkan sebagai Majelis Marwah dalam kepengurusan Lembaga Adat
+        Mapur (LAM) periode 2019-2024.
+      </p>
+      <p class="pb-6">
+        Pada tahun 2014-2015, dibentuk sebuah organisasi yang bertujuan melestarikan budaya
+        Mapur dan menaungi Penghayat Kepercayaan Mapur Dangkel. Berdasarkan kesepakatan
+        bersama masyarakat Mapur, wadah ini diberi nama Komunitas Adat Suku Lom. Beranggotakan
+        orang Mapur yang tinggal di Dusun Air Abik, Desa Gunung Muda dan Dusun Pejem, Desa
+        Gunung Pelawan, di Kecamatan Belinyu. Seiring waktu, lembaga ini tidak berjalan dan tidak
+        diperkuat secara legalitas.
+      </p>
+      <p class="pb-6">
+        Pada tahun 2019, dibentuklah organisasi baru yang bernama Lembaga Adat Mapur,
+        organisasi kemasyarakatan yang menaungi masyarakat Mapur, baik yang masih menganut
+        kepercayaan Tuhan Yang Maha Esa (Mapur Dangkel) dan telah beragama. Lembaga ini
+        bertujuan melestarikan kebudayaan Mapur dan menaungi penghayat kepercayaan kepada Tuhan
+        Yang Maha Esa. Organisasi ini bergerak di bidang Sosial, Budaya, Pelestarian Alam,
+        Kepemudaan, Keagamaan, Kepercayaan, Pendidikan dan Ekonomi. Pertama kali ditetapkan
+        berdasarkan Surat Keputusan Ketua Lembaga Adat Melayu Kabupaten Bangka Nomor
+        01/LAMB/2019 tanggal 20 April 2019 Tentang Pembentukan Lembaga Adat Mapur Kabupaten
+        Bangka Periode 2019-2024 dan kepengurusan dilantik oleh Ketua LAM Kab.Bangka dihadapan
+        Bupati Bangka pada tanggal 20 April 2019. Pendirian lembaga ini diperkuat dengan pencatatan
+        oleh Notaris Yokeu Adi Nursahid, SH, MK dengan Akta Nomor 3 tanggal 26 Februari 2020
+        tentang Akta Pendirian Lembaga Adat Mapur. 
+      </p>
+      
+  </div>
+      </div>
+</main>
+
 <main class="mt-10">
 
     <div class="mb-4 md:mb-0 w-full mx-auto relative" id="seni">
