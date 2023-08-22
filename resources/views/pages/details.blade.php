@@ -51,7 +51,7 @@
             @if (isset($data['file']) && !empty($data['file']))
                 @php
                     $extension = pathinfo($data['file'], PATHINFO_EXTENSION);
-                    $fileUrl = 'https://www.apimapor.diaryies.web.id/storage/files/' . $data['file'];
+                    $fileUrl = 'https://www.api.memarong.id/storage/files/' . $data['file'];
                 @endphp
 
                 @if (in_array($extension, ['pdf', 'doc', 'docx', 'word']))
@@ -61,7 +61,7 @@
                 </div>
 
                 @else
-                    <img src="https://www.apimapor.diaryies.web.id/storage/images/{{ $data['file'] }}" class="h-full lg:h-[30rem]" alt="file">
+                    <img src="https://www.api.memarong.id/storage/images/{{ $data['file'] }}" class="h-full lg:h-[30rem]" alt="file">
                 @endif
             @endif
         </div>

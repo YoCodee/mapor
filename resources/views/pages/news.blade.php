@@ -35,7 +35,7 @@
                 <div class="flex items-center justify-center h-56">
                   @php
                     $imagePath = isset($item['file']) && !empty($item['file'])
-                          ? 'https://www.apimapor.diaryies.web.id/storage/images/' . $item['file']
+                          ? 'https://www.api.memarong.id/storage/images/' . $item['file']
                           : asset('images/pdfword.jpg');
                   @endphp
                   <img src="{{ $imagePath }}" class="object-cover w-full h-full" alt="Image"/>
