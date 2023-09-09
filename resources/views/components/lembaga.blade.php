@@ -24,7 +24,7 @@
           Lembaga <span>Adat</span>
         </h1>
         <p class="animate__animated animate__fadeInUp animate__slow md:text-md text-sm">
-          Anyone who as never made a mistake has never tried anything new
+          Dusun Air Abik, Desa Gunung Muda, Kecamatan Belinyu, Kabupaten Bangka, Provinsi Kepulauan Bangka Belitung
         </p>
       </div>
 </div>

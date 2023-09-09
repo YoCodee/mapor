@@ -19,10 +19,10 @@
 <div class="images">
     <div class="smk1 p-20 lg:p-36" style="margin: auto">
         <h1 class="md:text-7xl text-5xl m-auto text-center items-center justify-center font-bold text-white" >
-          Warisan <span>Berita</span>
+          Warisan <span>Budaya</span>
         </h1>
         <p class="animate__animated animate__fadeInUp animate__slow md:text-md text-sm">
-          Anyone who as never made a mistake has never tried anything new
+          Dusun Air Abik, Desa Gunung Muda, Kecamatan Belinyu, Kabupaten Bangka, Provinsi Kepulauan Bangka Belitung
         </p>
       </div>
 </div>

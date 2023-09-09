@@ -10,24 +10,24 @@
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <img src="{{asset('images/fotoutama.jpg')}}" class="img absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"  alt="...">
 <div class="smk1 absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-<h1 class=" text-[39px] lg:text-7xl m-auto leading-9 text-center items-center justify-center font-bold text-white mb-2">Desa Gunung <span class="text-[#fedc56]">Muda</span> </h1>
-<p class="text-xs lg:text-base">Dusun Air Abik, Rinding Panjang, Belinyu, Kabupaten Bangka, Kepulauan Bangka Belitung</p>
+<h1 class=" text-[39px] lg:text-7xl m-auto leading-9 text-center items-center justify-center font-bold text-white mb-2">Dusun  <span class="text-[#fedc56]">Air Abik</span> </h1>
+<p class="text-xs lg:text-base">Dusun Air Abik, Desa Gunung Muda, Kecamatan Belinyu, Kabupaten Bangka, Provinsi Kepulauan Bangka Belitung</p>
 </div>
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
             <img src="{{asset('images/fotoutama.jpg')}}" class="img absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"  alt="...">
             <div class="smk1 absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-                <h1 class=" text-[39px] lg:text-7xl leading-9 m-auto text-center items-center justify-center font-bold text-white mb-2">Desa Gunung <span class="text-[#fedc56]">Muda</span> </h1>
-                <p class="text-xs lg:text-base">Dusun Air Abik,Rinding Panjang,Belinyu.Kabupaten Bangka Kepulauang Bangka Belitung</p>
+                <h1 class=" text-[39px] lg:text-7xl leading-9 m-auto text-center items-center justify-center font-bold text-white mb-2">Dusun <span class="text-[#fedc56]">Air Abik</span> </h1>
+                <p class="text-xs lg:text-base">Dusun Air Abik, Desa Gunung Muda, Kecamatan Belinyu, Kabupaten Bangka, Provinsi Kepulauan Bangka Belitung</p>
             </div>
         </div>
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <img src="{{asset('images/fotoutama.jpg')}}" class="img absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"  alt="...">
             <div class="smk1 absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-            <h1 class=" text-[39px] lg:text-7xl m-auto leading-9 text-center items-center justify-center font-bold text-white mb-2">Desa Gunung <span class="text-[#fedc56]">Muda</span> </h1>
-            <p class="text-xs lg:text-base">Dusun Air Abik,Rinding Panjang,Belinyu.Kabupaten Bangka Kepulauang Bangka Belitung</p>
+            <h1 class=" text-[39px] lg:text-7xl m-auto leading-9 text-center items-center justify-center font-bold text-white mb-2">Dusun <span class="text-[#fedc56]">Air Abik</span> </h1>
+            <p class="text-xs lg:text-base">Dusun Air Abik, Desa Gunung Muda, Kecamatan Belinyu, Kabupaten Bangka, Provinsi Kepulauan Bangka Belitung</p>
             </div>
         </div>
 

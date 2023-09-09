@@ -4,19 +4,19 @@
       <div
       class="flex flex-col justify-center items-center rounded-lg md:max-w-7xl md:flex-row">
       <img
-        class="h-96 w-72 lg:w-full mb-5 lg:mb-5  lg:h-full"
-        src="{{asset('images/image-removebg-preview (11).png')}}"
+        class="h-96 w-80 lg:w-[560px] mb-5 lg:mb-5  lg:h-full"
+        src="{{asset('images/logo.png')}}"
         alt="" />
       <div class="flex flex-col ml-0  md:ml-8 p-0 ">
         <h5
           class="mb-4 text-center font-extrabold text-black text-5xl font-montserat" data-aos="fade-left">
-          SELAMAT DATANG DI DESA GUNUNG MUDA
+          SELAMAT DATANG DI DUSUN AIR ABIK
           <hr>
         </h5>
         <p class=" mb-4 text-base lg:text-lg text-neutral-600 font-arimo text-center" data-aos="fade-left">
           Bangka dan Belitung adalah bagian dari Tanah Melayu, berbahasa Melayu, berbudaya
           Melayu dan sebagian besar beragama Islam sehingga mempengaruhi nilai-nilai dalam kehidupan
-          bermasyarakat. Prasasti Kotakapur bukti tertua hukum adat tertulis dari Kerajaam Sriwijaya.
+          bermasyarakat. Prasasti Kotakapur bukti tertua hukum adat tertulis dari Kerajaan Sriwijaya.
           Kemudian ada Undang-Undang Sindang Mardika dari Kesultanan Palembang.
           <br>
           <br>
@@ -40,24 +40,24 @@
     <div class="wrapper1 flex flex-wrap">
       <div class="container w-[vmin] h-[28vmin] flex flex-col justify-around px-[1em] relative text-[16px] rounded-lg border-b-8 border-[rgb(254,220,86)]">
         <i class="fas fa-user"></i>
-        <span class="num" data-val="633">000</span>
+        <span class="num" data-val="653">653</span>
         <span class="text"> Penduduk</span>
       </div>
       <div class="container w-[28vmin] h-[28vmin] flex flex-col justify-around px-[1em] relative text-[16px] rounded-lg border-b-8 border-[#fedc56]">
         <i class="fas fa-smile-beam"></i>
-        <span class="num" data-val="745">211</span>
+        <span class="num" data-val="211">211</span>
         <span class="text">Kepala Keluarga</span>
       </div>
       <div class="container w-[28vmin]  h-[28vmin] flex flex-col justify-around px-[1em] relative text-[16px] rounded-lg border-b-8 border-[#fedc56]">
         <i class="fas fa-list"></i>
-        <span class="num" data-val="208">000</span>
+        <span class="num" data-val="208">208</span>
         <span class="text pb-3.5 ">Kepercayaan </span>
-        <span class="text  ">Mapor Dangkel </span>
+        <span class="text mt-2">Mapor Dangkel </span>
 
       </div>
       <div class="container w-[28vmin] h-[28vmin] flex flex-col justify-around px-[1em] relative text-[16px] rounded-lg border-b-8 border-[#fedc56]">
         <i class="fas fa-star"></i>
-        <span class="num" data-val="445">000</span>
+        <span class="num" data-val="445">445</span>
         <span class="text">Umat Beragama</span>
       </div>
     </div>
@@ -68,7 +68,7 @@
     <div class="header-gallery flex justify-center py-5">
         <div class="text-center">
         <h1 class="text-4xl lg:text-5xl font-montserat font-extrabold text-black">Berita <span class="text-[#FFB600]">Terkait</span></h1>
-        <h2 class="text-xl lg:text-sm font-montserat font-extrabold text-black">Informasi Berita di Desa </h2>
+        <h2 class="text-xl mt-2 lg:text-sm font-montserat font-extrabold text-black">Informasi Berita di Dusun Air Abik </h2>
     </div>
     </div>
 </div>
@@ -76,13 +76,13 @@
 <a href="/news">
 <div class="flex justify-center mb-14">
       <div class="bg-[#000000] w-[50%] px-4 py-4 text-center text-white duration-200 ease-linear hover:bg-[#FFB600] hover:text-black">
-          <h1 class="font-arimo">Baca Berita Tentang Desa Mapur Terbaru!</h1>
+          <h1 class="font-arimo">Baca Berita Tentang Dusun Air Abik Terbaru!</h1>
       </div>
 </div>
 </a>
   <div class="galery mt-14  bg-[#FFB600] left-0 right-0 px-[7%] py-8" id="galeri">
     <div class="header-gallery flex justify-center pb-5 text-center"  >
-        <h1 class="text-4xl lg:text-6xl font-montserat font-extrabold text-white">Galleri Desa <span class="text-[#FFB600] bg-white px-2 rounded-sm">Mapur</span></h1>
+        <h1 class="text-4xl lg:text-6xl font-montserat font-extrabold text-white">Galleri Dusun  <span class="text-[#FFB600] bg-white px-2 rounded-sm">Air Abik</span></h1>
     </div>
     <div class="flex flex-wrap gap-12 justify-center my-12">
     <div class="max-w-sm bg-white border border-gray-200 rounded-2xl shadow-2xl  dark:bg-gray-800 dark:border-gray-700 ">
@@ -139,14 +139,14 @@
     </div>
     <div class="px-[7%] antialiased">
         <div class="header-gallery flex justify-center pb-5 text-center" id="wisata">
-            <h1 class="text-4xl lg:text-5xl mt-12 font-montserat font-medium text-black">Wisata Desa <span class="text-[#FFB600] font-extrabold">Mapur</span></h1>
+            <h1 class="text-4xl lg:text-5xl mt-12 font-montserat font-medium text-black">Wisata Dusun <span class="text-[#FFB600] font-extrabold">Air Abik</span></h1>
         </div>
         <div class="my-10 md:my-12 containers mx-auto flex flex-col md:flex-row shadow-sm overflow-hidden" x-data="{ testimonialActive: 2 }" x-cloak>
 			<div class="relative w-full py-2 md:py-24 md:w-1/2 flex flex-col item-center justify-center wisata">
 
 
 				<div class="relative text-2xl md:text-5xl py-24 px-6 md:py-6 md:px-1 text-center  md:mx-auto text-indigo-100 font-semibold leading-tight tracking-tight mb-0 z-20 opacity-50">
-					<p class="font-montserat">Wisata Pantai Tuing</p>
+					<p class="font-montserat">Wisata Gebong Memarong</p>
 
 				</div>
 
@@ -173,7 +173,7 @@
 					<div class="h-full relative z-10">
 						<div x-show.immediate="testimonialActive === 1">
 							<p class="text-gray-600 serif font-normal  italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl" x-show.transition="testimonialActive == 1">
-								Pantai Tuing, yang terletak di Pulau Bangka, adalah destinasi wisata yang menakjubkan dengan pesona alamnya yang memikat. Pantai ini menawarkan pasir putih lembut yang kontras dengan air laut berwarna biru jernih, menciptakan pemandangan yang sangat menawan.
+								Pulau Bangka kembali menambah satu objek wisatanya untuk dapat dinikmati oleh para pengunjung. Objek wisata tersebut adalah Kampung Adat Gebong Memarong yang merupakan wisata budaya. Yang keberadaannya terletak di Dusun Air Abik, Desa Gunung Muda, Kecamatan Belinyu Kabupaten Bangka.
 							</p>
 						</div>
 
@@ -184,26 +184,21 @@
                                       <thead class="bg-gray-200 text-gray-700">
                                         <tr>
                                           <th class="px-6 py-4 text-left"></th>
-                                          <th class="px-2 py-4 text-left">Harga Tiket Masuk</th>
+                                          <th class="px-2 py-4 text-left">Biaya Penginapan</th>
                                           <th class="px-2 py-4 text-left"></th>
                                         </tr>
                                       </thead>
                                       <tbody class="divide-y divide-gray-300">
                                         <tr>
-                                          <td class="px-8 py-4">Tiket Normal</td>
+                                          <td class="px-8 py-4">Tarif Penginapan</td>
 
-                                          <td class="px-6 py-4">Rp5.000</td>
+                                          <td class="px-6 py-4">Rp 250.000 / Kamar</td>
                                         </tr>
                                         <tr>
-                                          <td class="px-8 py-4">Biaya Pondok</td>
+                                          <td class="px-8 py-4">Tarik Kuliner</td>
 
-                                          <td class="px-6 py-4">Rp15.000</td>
+                                          <td class="px-6 py-4">Rp 30.000 / Orang</td>
 
-                                        </tr>
-                                        <tr>
-                                            <td class="px-8">Tarif Penginapan</td>
-
-                                            <td class="px-6 py-4">Mulai dari Rp500.000-900.000</td>
                                         </tr>
                                         <!-- Add more rows as needed -->
                                       </tbody>
@@ -224,7 +219,7 @@
 							@click.prevent="testimonialActive = 2"
 							class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline h-16 w-16 inline-block bg-indigo-600 rounded-full mx-2"
 							:class="{'h-12 w-12 opacity-25 bg-indigo-300 text-gray-600': testimonialActive != 2, 'h-16 w-16 opacity-100 bg-indigo-600 text-white': testimonialActive == 2 }"
-						>PW</button>
+						>PP</button>
 
 					</div>
 
@@ -235,7 +230,7 @@
 						</div>
 
 						<div class="text-center" x-show="testimonialActive == 2">
-							<h2 class="text-sm md:text-base font-bold text-gray-700 leading-tight">Paket Wisata</h2>
+							<h2 class="text-sm md:text-base font-bold text-gray-700 leading-tight">Paket Penginapan</h2>
 
 						</div>
 
@@ -278,7 +273,7 @@
 					<div class="h-full relative z-10">
 						<div x-show.immediate="testimonialActive === 1">
 							<p class="text-gray-600 serif font-normal  italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl" x-show.transition="testimonialActive == 1">
-								Gebong Memarong
+								Pulau Bangka kembali menambah satu objek wisatanya untuk dapat dinikmati oleh para pengunjung. Objek wisata tersebut adalah Kampung Adat Gebong Memarong yang merupakan wisata budaya. Yang keberadaannya terletak di Dusun Air Abik, Desa Gunung Muda, Kecamatan Belinyu Kabupaten Bangka.
 							</p>
 						</div>
 
@@ -295,14 +290,14 @@
                                       </thead>
                                       <tbody class="divide-y divide-gray-300">
                                         <tr>
-                                          <td class="px-8 py-4">Paket Wisata</td>
+                                          <td class="px-8 py-4">Tiket Masuk / Orang</td>
 
-                                          <td class="px-6 py-4">Rp5.000</td>
+                                          <td class="px-6 py-4">Rp 5.000</td>
                                         </tr>
                                         <tr>
-                                          <td class="px-8 py-4">Paket Kuliner</td>
+                                          <td class="px-8 py-4">Jasa Guide</td>
 
-                                          <td class="px-6 py-4">Rp15.000</td>
+                                          <td class="px-6 py-4">Rp 10.000</td>
 
                                         </tr>
 
@@ -320,7 +315,7 @@
 							@click.prevent="testimonialActive = 1"
 							class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline inline-block rounded-full mx-2"
 							:class="{'h-12 w-12 opacity-25 bg-indigo-300 text-gray-600': testimonialActive != 1, 'h-16 w-16 opacity-100 bg-indigo-600 text-white': testimonialActive == 1 }"
-						>JW</button>
+						>DT</button>
 						<button
 							@click.prevent="testimonialActive = 2"
 							class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline h-16 w-16 inline-block bg-indigo-600 rounded-full mx-2"
@@ -331,7 +326,7 @@
 
 					<div class="flex justify-center px-6 pt-2 pb-6 md:py-6">
 						<div class="text-center" x-show="testimonialActive == 1">
-							<h2 class="text-sm md:text-base font-bold text-gray-700 leading-tight">Jadwal Berkunjung</h2>
+							<h2 class="text-sm md:text-base font-bold text-gray-700 leading-tight">Daya Tarik</h2>
 
 						</div>
 
@@ -349,7 +344,7 @@
     <div class="container2 px-6 py-12 mx-auto">
         <div class="grid items-center gap-4 xl:grid-cols-5">
             <div class="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
-                <h2 class="text-4xl font-bold">Mengenal Lebih Dalam tentang Sejarah Desa Mapur</h2>
+                <h2 class="text-4xl font-bold">Mengenal Lebih Dalam tentang Sejarah Dusun Air Abik</h2>
                 <p class="dark:text-gray-400">Data-data ini diambil dari data yang sudah beredar di Internet dan Warga Sekitar</p>
             </div>
             <div class="p-0 lg:p-6 xl:col-span-3">
@@ -424,7 +419,7 @@
 </div>
 <div class="container2 my-12 py-12 mx-auto px-4 md:px-6 lg:px-12">
     <div class="header-gallery flex justify-center pb-5 text-center">
-        <h1 class="text-4xl lg:text-6xl font-montserat font-extrabold text-black">Map Desa <span class="text-[#FFB600] ">Mapur</span></h1>
+        <h1 class="text-4xl lg:text-6xl font-montserat font-extrabold text-black">Map Dusun <span class="text-[#FFB600] ">Air Abik</span></h1>
     </div>
     <!--Section: Design Block-->
     <section class="mb-8 text-gray-800">
@@ -433,7 +428,7 @@
         <div class="flex-initial shrink w-full xl:w-5/12 lg:w-6/12 z-10">
           <div class="lg:py-12 lg:pl-6 mb-6 lg:mb-0">
             <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127623.09339310449!2d105.92548817345282!3d-1.6209912214289228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e225ada88dc234d%3A0xc94fe38ef1294779!2sMapur%2C%20Kec.%20Riau%20Silip%2C%20Kabupaten%20Bangka%2C%20Kepulauan%20Bangka%20Belitung!5e0!3m2!1sid!2sid!4v1692244392212!5m2!1sid!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65490.55790496977!2d105.83300496471607!3d-1.6771073388626652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2253e3d01dcb9b%3A0xd99730dcc16b4238!2sAirabik%2C%20Riding%20Panjang%2C%20Belinyu%2C%20Kabupaten%20Bangka%2C%20Kepulauan%20Bangka%20Belitung!5e0!3m2!1sid!2sid!4v1694247431513!5m2!1sid!2sid"
             class="h-80 w-full border-0 rounded-lg shadow-lg" allowfullscreen="" loading="lazy"></iframe>
           </div>
         </div>
@@ -442,10 +437,11 @@
             <div class="lg:pl-12">
               <h3 class="text-2xl font-semibold uppercase mb-6 pb-2">Kontak Kami</h3>
               <h5 class="text-xl font-semibold mb-2">Address:</h5>
-              <p class="mb-6">Dusun Air Abik, Rinding Panjang, Belinyu, Kabupaten Bangka, Kepulauan Bangka Belitung</p>
+              <p class="mb-6">Dusun Air Abik, Desa Gunung Muda, Kecamatan Belinyu, Kabupaten Bangka, Provinsi Kepulauan Bangka Belitung
+              </p>
               <h5 class="text-xl font-semibold mb-4">Follow us:</h5>
               <div class="flex flex-row">
-                <a href="https://www.instagram.com/yayasangebongmemarong/">
+                <a href="https://www.instagram.com/gebongmemarong/">
                   <svg aria-hidden="true" focusable="false" data-prefix="fab" class="w-6 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
                 </a>
               </div>
@@ -478,7 +474,7 @@
   <style>
 
     .wisata{
-        background: url("./images/tuing.jpg");
+        background: url("./images/gebong1.jpg");
         background-size: cover;
       background-repeat: no-repeat;
       background-position: center;

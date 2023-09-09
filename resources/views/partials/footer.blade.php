@@ -7,17 +7,17 @@
         </a>
         <div class="mt-6 lg:max-w-sm">
           <p class="text-sm text-gray-800">
-            Dusun Air Abik, Rinding Panjang, Belinyu,
-          </p>
-          <p class="text-sm text-gray-800">
-            Kabupaten Bangka, Kepulauan Bangka Belitung
+            Dusun Air Abik, Desa Gunung Muda, Kecamatan Belinyu, Kabupaten Bangka, Provinsi Kepulauan Bangka Belitung
           </p>
         </div>
       </div>
       <div class="space-y-2 text-sm">
         <p class="text-base font-bold tracking-wide text-gray-900">Contacts</p>
         <div class="flex">
-          <p class="mr-1 text-gray-800">Phone:</p>+62 852-1385-5053
+          <p class="mr-1 text-gray-800">Phone 1:</p>+62 822 7941 8820
+        </div>
+        <div class="flex">
+          <p class="mr-1 text-gray-800">Phone 2:</p>+62 821 7737 9462
         </div>
         <div class="flex">
           <p class="mr-1 text-gray-800">Email:</p>
@@ -25,13 +25,13 @@
         </div>
         <div class="flex">
           <p class="mr-1 text-gray-800">Address:</p>
-            Dusun Air Abik, Rinding Panjang, Belinyu, Kabupaten Bangka, Kepulauan Bangka Belitung
+          Dusun Air Abik, Desa Gunung Muda, Kecamatan Belinyu, Kabupaten Bangka, Provinsi Kepulauan Bangka Belitung
         </div>
       </div>
       <div>
         <span class="text-base font-bold tracking-wide text-gray-900">Social</span>
         <div class="flex items-center mt-1 space-x-3">
-          <a href="https://www.instagram.com/yayasangebongmemarong/" class="text-white transition-colors duration-300 hover:text-deep-purple-accent-400">
+          <a href="https://www.instagram.com/gebongmemarong/" class="text-white transition-colors duration-300 hover:text-deep-purple-accent-400">
             <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
               <circle cx="15" cy="15" r="4"></circle>
               <path
